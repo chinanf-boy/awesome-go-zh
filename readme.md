@@ -36,6 +36,7 @@
 
 ---
 
+> **很多同类型的库的简介是如此的类似，加了star数, 但请记住star并不代表一切**
 
 # Awesome Go
 
@@ -60,11 +61,11 @@
   - [x] [音频与音乐](#%E9%9F%B3%E9%A2%91%E4%B8%8E%E9%9F%B3%E4%B9%90)
   - [x] [认证与OAuth](#%E8%AE%A4%E8%AF%81%E4%B8%8Eoauth)
   - [命令行](#%E5%91%BD%E4%BB%A4%E8%A1%8C)
-    - [标准CLI](#%E6%A0%87%E5%87%86cli)
-    - [高级Console UIs](#%E9%AB%98%E7%BA%A7console-uis)
-  - [配置](#%E9%85%8D%E7%BD%AE)
-  - [持续集成](#%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90)
-  - [CSS预处理器](#css%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8)
+    - [x] [标准CLI](#%E6%A0%87%E5%87%86cli)
+    - [x] [高级Console UIs](#%E9%AB%98%E7%BA%A7console-uis)
+  - [x] [配置](#%E9%85%8D%E7%BD%AE)
+  - [x] [持续集成](#%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90)
+  - [x] [CSS预处理器](#css%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8)
   - [数据结构](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
   - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
   - [数据库驱动程序](#%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F)
@@ -138,17 +139,19 @@
 
 *用于操作音频的库.*
 
--   [EasyMIDI](https://github.com/algoGuy/EasyMIDI)EasyMIDI 是使用标准midi文件(SMF)的简单可靠的库.
+<!-- ![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=plastic&label=Stars) -->
+
+-   [EasyMIDI](https://github.com/algoGuy/EasyMIDI)-是使用标准midi文件(SMF)的简单可靠的库.
 -   [flac](https://github.com/eaburns/flac)-原生Go FLAC解码器.
 -   [flac](https://github.com/mewkiz/flac)-原生Go FLAC解码器.
 -   [gaad](https://github.com/Comcast/gaad)-原生Go-AAC比特流解析器.
 -   [go-sox](https://github.com/krig/go-sox)-libsox绑定Go.
--   [go_mediainfo](https://github.com/zhulik/go_mediainfo)Go绑定libmediainfo.
+-   [go_mediainfo](https://github.com/zhulik/go_mediainfo)-Go绑定libmediainfo.
 -   [gosamplerate](https://github.com/dh1tw/gosamplerate)-Go绑定libsamplerate.
 -   [id3v2](https://github.com/bogem/id3v2)- 快速、稳定的ID3解析和写入库.
 -   [malgo](https://github.com/gen2brain/malgo)-迷你音频库.
 -   [minimp3](https://github.com/tosone/minimp3)-轻量级MP3解码器库.
--   [mix](https://github.com/go-mix/mix) - 给予音乐应用程序，基于序列，Go原生的音频混音器.
+-   [mix](https://github.com/go-mix/mix)- 给予音乐应用程序，基于序列，Go原生的音频混音器.
 -   [mp3](https://github.com/tcolgate/mp3)-原生Go的MP3解码器.
 -   [music-theory](https://github.com/go-music-theory/music-theory)-音乐理论模型.
 -   [PortAudio](https://github.com/gordonklaus/portaudio)-PartAudio音频I/O库绑定Go.
@@ -189,116 +192,114 @@
 -   [signedvalue](https://github.com/sashka/signedvalue)-符号和时间戳字符串,兼容[Tornado's](https://github.com/tornadoweb/tornado) `create_signed_value`,`decode_signed_value`还有`set_secure_cookie`和`get_secure_cookie`.
 -   [yubigo](https://github.com/GeertJohan/yubigo)-提供一个简单API的Yubikey客户端包,将Yubico Yubikey集成到Go应用程序中.
 
-<!-- HERE -->
-
 ## 命令行
 
 ### 标准CLI
 
 *用于建立标准或基本命令行应用程序的库.*
 
--   [argparse](https://github.com/akamensky/argparse)命令行参数分析器,由Python的AgPARSE模块启发.
--   [argv](https://github.com/cosiner/argv)-使用BASH语法将Go库拆分为参数数组.
+-   [argparse](https://github.com/akamensky/argparse)-命令行参数分析器,由Python的argparse模块启发.
+-   [argv](https://github.com/cosiner/argv)-当使用bash语法时,拆分命令行字符串为参数数组的Go库.
 -   [cli](https://github.com/mkideal/cli)-基于GalangStutt标签的功能丰富且易于使用的命令行包.
 -   [cli](https://github.com/teris-io/cli)-简单而完整的API,用于构建Go中的命令行接口.
 -   [cli-init](https://github.com/tcnksm/gcli)-开始构建Golang命令行应用程序的简单方法.
--   [climax](http://github.com/tucnak/climax)-替代的CLI与"人脸",在精神的Go命令.
--   [cobra](https://github.com/spf13/cobra)-现代Go CLI交互的指挥官.
--   [commandeer](https://github.com/jaffee/commandeer)-DEV友好的CLI应用程序:基于结构域和标记设置标志、默认值和用法.
--   [complete](https://github.com/posener/complete)-在Go+Go命令BASH完成中编写BASH完成.
--   [docopt.go](https://github.com/docopt/docopt.go)命令行参数分析器,它会让你微笑.
--   [drive](https://github.com/odeke-em/drive)谷歌驱动客户端的命令行.
--   [env](https://github.com/codingconcepts/env)基于标签的结构环境配置.
+-   [climax](http://github.com/tucnak/climax)-"人类认知"的替代的CLI,Go命令的精神.
+-   [cobra](https://github.com/spf13/cobra)-现代Go命令行交互的`指挥官Commander`.
+-   [commandeer](https://github.com/jaffee/commandeer)-开发友好的CLI应用程序: 基于结构字段和标记来设置flags、defaults和usage.
+-   [complete](https://github.com/posener/complete)-在Go中编写bash补全 + Go命令bash补全.
+-   [docopt.go](https://github.com/docopt/docopt.go)- 命令行参数分析器,它会让你微笑.
+-   [drive](https://github.com/odeke-em/drive)- Google Drive客户端的命令行.
+-   [env](https://github.com/codingconcepts/env)- 基于标签的结构环境配置.
 -   [flag](https://github.com/cosiner/flag)- Go支持子命令的简单但强大的命令行选项解析库.
--   [flaggy](https://github.com/integrii/flaggy)-具有优秀子命令支持的健壮的和惯用的标志包.
--   [flagvar](https://github.com/sgreben/flagvar)- Go标准的标志参数类型的集合`flag`包裹.
--   [go-arg](https://github.com/alexflint/go-arg)在Go中基于结构的参数解析.
--   [go-commander](https://github.com/yitsushi/go-commander)Go库简化CLI工作流程
--   [go-flags](https://github.com/jessevdk/go-flags)转到命令行选项解析器.
--   [gocmd](https://github.com/devfacet/gocmd)-用于构建命令行应用程序的Go库.
--   [kingpin](https://github.com/alecthomas/kingpin)-支持子命令的命令行和标志分析器.
--   [liner](https://github.com/peterh/liner)-用于命令行接口的读行类库.
+-   [flaggy](https://github.com/integrii/flaggy)-具有优秀子命令支持的健壮和惯用的flag包.
+-   [flagvar](https://github.com/sgreben/flagvar)- Go标准`flag`包的flag参数类型集合.
+-   [go-arg](https://github.com/alexflint/go-arg)- 基于结构的参数解析.
+-   [go-commander](https://github.com/yitsushi/go-commander)- Go库简化CLI工作流程
+-   [go-flags](https://github.com/jessevdk/go-flags)- go命令行选项解析器.
+-   [gocmd](https://github.com/devfacet/gocmd) - 用于构建命令行应用程序的Go库.
+-   [kingpin](https://github.com/alecthomas/kingpin)-支持子命令的命令行和flag分析器.
+-   [liner](https://github.com/peterh/liner)-用于命令行接口的类readline库.
 -   [mitchellh/cli](https://github.com/mitchellh/cli)-用于实现命令行接口的Go库.
--   [mow.cli](https://github.com/jawher/mow.cli)-用复杂标志和参数解析和验证来构建CLI应用程序的Go库.
--   [pflag](https://github.com/spf13/pflag)-在Go的标志包中进行替换,实现POSIX/GNU样式-标志.
--   [readline](https://github.com/chzyer/readline)-纯GoRANG实现,它提供了MIT许可下GNU读行中的大多数特征.
--   [sflags](https://github.com/octago/sflags)基于结构的标志发生器,用于标志、URFAV/CLI、PFLAG、COBRA、主销和其他库.
+-   [mow.cli](https://github.com/jawher/mow.cli)-用复杂flag和参数解析和验证来构建CLI应用程序的Go库.
+-   [pflag](https://github.com/spf13/pflag)-在Go的flag包中进行替换,实现POSIX/GNU样式 `--flags`.
+-   [readline](https://github.com/chzyer/readline)-纯Go实现,它提供了GNU-Readline中的大多数功能.MIT许可
+-   [sflags](https://github.com/octago/sflags)基于结构的flag生成器,用于`flag, urfave/cli, pflag, cobra, kingpin`和其他库.
 -   [strumt](https://github.com/antham/strumt)-创建即时链接库.
 -   [ukautz/clif](https://github.com/ukautz/clif)-小型命令行接口框架.
--   [urfave/cli](https://github.com/urfave/cli)-简单,快速,有趣的软件包构建命令行应用程序在Go(以前的CODEANGSTAS/CLI).
--   [wlog](https://github.com/dixonwille/wlog)-支持跨平台颜色和并发的简单日志接口.
+-   [urfave/cli](https://github.com/urfave/cli)-简单,快速,有趣的软件包构建命令行应用程序在Go(以前codegangsta/cli).
+-   [wlog](https://github.com/dixonwille/wlog)-支持跨平台颜色和并发的简单日志接口. *这应该是日志分类的*
 -   [wmenu](https://github.com/dixonwille/wmenu)-易于使用的CLI应用程序菜单结构,提示用户做出选择.
 
 ### 高级Console UIs
 
 *用于构建Console 应用程序和Console 用户界面的库.*
 
--   [aurora](https://github.com/logrusorgru/aurora)支持FMT.Prtff/SaveTf的ANSI终端颜色.
--   [cfmt](https://github.com/mingrammer/cfmt)-上下文FMT由引导颜色类启发.
--   [chalk](https://github.com/ttacon/chalk)-用于美化终端/控制台输出的直观包.
+-   [aurora](https://github.com/logrusorgru/aurora)支持fmt.Printf/Sprintf的ANSI终端颜色.
+-   [cfmt](https://github.com/mingrammer/cfmt)-属于你的fmt由bootstrap颜色类启发.
+-   [chalk](https://github.com/ttacon/chalk)-用于美化terminal/console输出的直观包.
 -   [color](https://github.com/fatih/color)-彩色终端输出的通用封装.
--   [colourize](https://github.com/TreyBastian/colourize)-为终端中的ANSI颜色文本去库.
--   [ctc](https://github.com/wzshiming/ctc)-非侵入性跨平台终端颜色库不需要修改打印方法.
+-   [colourize](https://github.com/TreyBastian/colourize)-终端中的ANSI颜色文本.
+-   [ctc](https://github.com/wzshiming/ctc)-非侵入性跨平台终端颜色库不，需要修改打印方法.
 -   [go-ataman](https://github.com/workanator/go-ataman)-在终端中绘制ANSI彩色文本模板的Go库.
--   [go-colorable](https://github.com/mattn/go-colorable)Windows的可着色写入器.
--   [go-colortext](https://github.com/daviddengcn/go-colortext)转到终端的颜色输出库.
--   [go-isatty](https://github.com/mattn/go-isatty)-为戈朗服务.
--   [go-prompt](https://github.com/c-bata/go-prompt)图书馆为构建强大的互动提示,受到启发[python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
+-   [go-colorable](https://github.com/mattn/go-colorable)-Windows的可彩绘写入器.
+-   [go-colortext](https://github.com/daviddengcn/go-colortext)-终端的颜色输出库.
+-   [go-isatty](https://github.com/mattn/go-isatty)-go的你在哪个终端.
+-   [go-prompt](https://github.com/c-bata/go-prompt)-为构建强大的互动提示,受到[python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)启发.
 -   [gocui](https://github.com/jroimartin/gocui)-极简主义Go库,旨在创建控制台用户界面.
--   [gommon/color](https://github.com/labstack/gommon/tree/master/color)样式的终端文本.
+-   [gommon/color](https://github.com/labstack/gommon/tree/master/color)样式化的终端文本.
 -   [gookit/color](https://github.com/gookit/color)-终端显色工具库,支持16种颜色,256种颜色,RGB颜色渲染输出,兼容Windows.
 -   [mpb](https://github.com/vbauerster/mpb)-用于终端应用的多进度条.
 -   [progressbar](https://github.com/schollz/progressbar)-在每个操作系统中工作的基本线程安全进度条.
--   [simpletable](https://github.com/alexeyco/simpletable)-终端中带有Go的简单表.
--   [tabular](https://github.com/InVisionApp/tabular)从命令行实用工具打印ASCII表,而不需要将大量数据传递给API.
--   [termbox-go](https://github.com/nsf/termbox-go)Termbox是一个用于创建跨平台的基于文本的接口的库.
--   [termtables](https://github.com/apcera/termtables)去红宝石图书馆的港口[terminal-tables](https://github.com/tj/terminal-table)用于简单的ASCII表生成以及提供标记和HTML输出.
--   [termui](https://github.com/gizak/termui)基于终端的终端仪表板**畸胎**受到启发[blessed-contrib](https://github.com/yaronn/blessed-contrib).
--   [tui-go](https://github.com/marcusolsson/tui-go)去UI库来构建丰富的终端应用程序.
+-   [simpletable](https://github.com/alexeyco/simpletable)-终端中简单表格.
+-   [tabular](https://github.com/InVisionApp/tabular)-从命令行实用工具打印ASCII表格, 而不需要将大量数据传递给API.
+-   [termbox-go](https://github.com/nsf/termbox-go)-是一个用于创建跨平台的基于文本的接口库.
+-   [termtables](https://github.com/apcera/termtables)-Ruby库[terminal-tables](https://github.com/tj/terminal-table)的Go实现部分，用于简单的ASCII表格生成以及提供markdown和HTML输出.
+-   [termui](https://github.com/gizak/termui)基于**termbox-go**的终端仪表板，和受到[blessed-contrib](https://github.com/yaronn/blessed-contrib)启发.
+-   [tui-go](https://github.com/marcusolsson/tui-go)-来构建丰富的终端应用程序的UI库.
 -   [uilive](https://github.com/gosuri/uilive)-用于实时更新终端输出的库.
--   [uiprogress](https://github.com/gosuri/uiprogress)-在终端应用程序中呈现进度条的灵活库.
+-   [uiprogress](https://github.com/gosuri/uiprogress)-在终端应用程序中呈现进度条的Flexible库.
 -   [uitable](https://github.com/gosuri/uitable)-使用表格数据提高终端应用程序的可读性.
 
 ## 配置
 
 *用于配置解析的库.*
 
--   [config](https://github.com/olebedev/config)JSON或YAML配置包,包含环境变量和标志解析.
--   [configure](https://github.com/paked/configure)-通过多个源提供配置,包括JSON、标志和环境变量.
--   [confita](https://github.com/heetch/confita)将级联从多个后端加载到结构中.
+-   [config](https://github.com/olebedev/config)-JSON或YAML配置包,包含环境变量和flag解析.
+-   [configure](https://github.com/paked/configure)-通过多个源提供配置,包括JSON、flag和环境变量.
+-   [confita](https://github.com/heetch/confita)-将配置从多个后端加载到结构中.
 -   [conflate](https://github.com/miracl/conflate)-库/工具,用于合并来自任意URL的多个JSON/YAML/TOML文件,根据JSON模式进行验证,以及应用模式中定义的默认值.
--   [env](https://github.com/caarlos0/env)-解析环境变量以构造(默认值)结构.
+-   [env](https://github.com/caarlos0/env)-解析环境变量构建(默认值)结构.
 -   [envcfg](https://github.com/tomazk/envcfg)-联合编组环境变量以构造结构.
--   [envconf](https://github.com/ian-kent/envconf)-从环境配置.
+-   [envconf](https://github.com/ian-kent/envconf)-环境配置.
 -   [envconfig](https://github.com/vrischmann/envconfig)-从环境变量中读取配置.
 -   [envh](https://github.com/antham/envh)-帮助管理环境变量.
--   [gcfg](https://github.com/go-gcfg/gcfg)-将INI风格的配置文件读入Go结构;支持用户定义的类型和子段.
+-   [gcfg](https://github.com/go-gcfg/gcfg)-将INI风格的配置文件读入Go结构; 支持用户定义的类型和子段.
 -   [go-up](https://github.com/ufoscout/go-up)-具有递归占位符解析和无魔法的简单配置库.
--   [goConfig](https://github.com/crgimenes/goConfig)-将结构解析为输入,并用来自命令行、环境变量和配置文件的参数填充该结构的字段.
--   [godotenv](https://github.com/joho/godotenv)Ruby DoTeV库的端口(加载环境变量)`.env`)
--   [gofigure](https://github.com/ian-kent/gofigure)转到应用程序配置很容易.
--   [gone/jconf](https://github.com/One-com/gone/tree/master/jconf)-模块化JSON配置.保持配置结构以及它们配置的代码,并将解析委托给子模块,而不牺牲完整的配置序列化.
+-   [goConfig](https://github.com/crgimenes/goConfig)-将结构解析为输入,和用来自命令行、环境变量和配置文件的参数填充该结构的字段.
+-   [godotenv](https://github.com/joho/godotenv)Ruby  dotenv库的Go部分(从`.env`加载环境变量)
+-   [gofigure](https://github.com/ian-kent/gofigure)-应用程序配置很容易.
+-   [gone/jconf](https://github.com/One-com/gone/tree/master/jconf)-模块化JSON配置.保持配置结构，以及它们配置的代码,并将解析委托给子模块,而不牺牲完整的配置序列化.
 -   [gookit/config](https://github.com/gookit/config)-应用配置管理(加载,获取,设置).支持JSON、YAML、TAML、INI、HCL.多文件加载,数据覆盖合并.
--   [hjson](https://github.com/hjson/hjson-go)人类JSON,是人类的配置文件格式.轻松的语法,更少的错误,更多的评论.
--   [ingo](https://github.com/schachmat/ingo)标志保存在INI类配置文件中.
+-   [hjson](https://github.com/hjson/hjson-go)-人类JSON,是人类的配置文件格式.轻松的语法,更少的错误,更多的注释.
+-   [ingo](https://github.com/schachmat/ingo)-Flags保存在INI类配置文件中.
 -   [ini](https://github.com/go-ini/ini)-去读和写INI文件.
--   [joshbetz/config](https://github.com/joshbetz/config)-用于解析环境变量、JSON文件并在FIZUP上自动加载的Go小配置库.
--   [kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig)从环境变量管理配置数据的Go库.
--   [mini](https://github.com/sasbury/mini)Golang包解析ini样式的配置文件.
--   [sprbox](https://github.com/oblq/sprbox)-构建环境感知工具箱工厂和不可知配置分析器(YAML、TAML、JSON和环境VARS).
+-   [joshbetz/config](https://github.com/joshbetz/config)-用于解析环境变量、JSON文件, 并在SIGHUP上自动加载的Go小配置库.
+-   [kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig)-从环境变量管理配置数据的Go库.
+-   [mini](https://github.com/sasbury/mini)-解析ini样式的配置文件的Golang包.
+-   [sprbox](https://github.com/oblq/sprbox)-构建环境感知工具箱工厂和无论配置解析器(YAML、TAML、JSON和环境变量).
 -   [store](https://github.com/tucnak/store)-为Go提供轻量级配置管理器.
--   [viper](https://github.com/spf13/viper)-用尖牙进行配置.
--   [xdg](https://github.com/OpenPeeDeeP/xdg)跨平台软件包[XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+-   [viper](https://github.com/spf13/viper)-撕咬配置.
+-   [xdg](https://github.com/OpenPeeDeeP/xdg)-跨平台软件包根据[XDG 标准](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
 ## 持续集成
 
 *持续集成的帮助工具.*
 
--   [drone](https://github.com/drone/drone)-无人机是一个建立在DOKER上的连续集成平台,写在Go中.
--   [duci](https://github.com/duck8823/duci)一个简单的CI服务器不需要特定于域的语言.
--   [gomason](https://github.com/nikogura/gomason)-从干净的工作区测试、构建、签署和发布您的二进制二进制文件.
--   [goveralls](https://github.com/mattn/goveralls)为Curral.IO连续代码覆盖跟踪系统进行Go集成.
--   [overalls](https://github.com/go-playground/overalls)-多包Go项目覆盖配置文件的工具,如政府.
+-   [drone](https://github.com/drone/drone)-是一个建立在Docker上的持续集成平台,写于Go中.
+-   [duci](https://github.com/duck8823/duci)一个简单的CI服务器，不管特定语言.
+-   [gomason](https://github.com/nikogura/gomason)-在干净的工作区上测试、构建、签署和发布您的二进制二进制文件.
+-   [goveralls](https://github.com/mattn/goveralls)=为Coveralls.io连续代码覆盖跟踪系统进行Go集成.
+-   [overalls](https://github.com/go-playground/overalls)-多包Go项目覆盖配置文件的工具,如goveralls.
 -   [roveralls](https://github.com/LawrenceWoodman/roveralls)-递归覆盖测试工具.
 
 ## CSS预处理器
@@ -307,14 +308,14 @@
 
 -   [c6](https://github.com/c9s/c6)-高性能的SASS兼容编译器,用Go编写.
 -   [gcss](https://github.com/yosssi/gcss)-纯Go CSS预处理器.
--   [go-libsass](https://github.com/wellington/go-libsass)-去包装100%个兼容SASS的LIPSASS项目.
+-   [go-libsass](https://github.com/wellington/go-libsass)-Go包装100%兼容SASS的libsass项目.
 
 ## 数据结构
 
 *Go中的通用数据结构和算法.*
 
--   [algorithms](https://github.com/shady831213/algorithms)算法和数据结构.
--   [binpacker](https://github.com/zhuangsirui/binpacker)二进制打包器和解压器帮助用户构建自定义二进制流.
+-   [algorithms](https://github.com/shady831213/algorithms)- 算法和数据结构.
+-   [binpacker](https://github.com/zhuangsirui/binpacker)- 二进制打包器和解压器帮助用户构建自定义二进制流.
 -   [bit](https://github.com/yourbasic/bit)- Golang设置数据结构,具有额外的比特删除功能.
 -   [bitset](https://github.com/willf/bitset)-去实现比特集.
 -   [bloom](https://github.com/zhenjl/bloom)在Go中实现Bloom过滤器.
@@ -810,7 +811,7 @@
 -   [logutils](https://github.com/hashicorp/logutils)-用于稍微更好地登录Go(Golang)的实用工具,扩展标准记录器.
 -   [logxi](https://github.com/mgutz/logxi)12因素APP记录器,速度快,让你快乐.
 -   [lumberjack](https://github.com/natefinch/lumberjack)-简单滚动记录器,实现IO.WrreCuleSER.
--   [mlog](https://github.com/jbrodriguez/mlog)Go的简单日志模块,具有5个级别,可选的旋转日志文件特征和STDUD/STDER输出.
+-   [mlog](https://github.com/jbrodriguez/mlog)Go的简单日志模块,具有5个级别,可选的旋转日志文件功能和STDUD/STDER输出.
 -   [onelog](https://github.com/francoispqt/onelog)ONEOLG是一个简单但非常有效的JSON记录器.它是所有场景中最快的JSON记录器.而且,它是具有最低分配的记录器之一.
 -   [ozzo-log](https://github.com/go-ozzo/ozzo-log)-支持日志严重性、分类和过滤的高性能日志记录.可以将过滤后的日志消息发送到各种目标(例如控制台、网络、邮件).
 -   [seelog](https://github.com/cihub/seelog)-具有灵活调度、过滤和格式化的日志记录功能.
@@ -905,7 +906,7 @@
 -   [anagent](https://github.com/mudler/anagent)-具有依赖注入的最小化、可插入的Golang evloop /定时器处理程序.
 -   [antch](https://github.com/antchfx/antch)-一种快速、强大和可扩展的Web爬行和刮削框架.
 -   [archiver](https://github.com/mholt/archiver)库和命令,用于制作和提取.zip和t.gz档案.
--   [autoflags](https://github.com/artyom/autoflags)-从软件结构域中自动定义命令行标志.
+-   [autoflags](https://github.com/artyom/autoflags)-从软件结构域中自动定义命令行flag.
 -   [avgRating](https://github.com/kirillDanshin/avgRating)根据Wilson积分方程计算平均得分和评分.
 -   [banner](https://github.com/dimiro1/banner)在你的Go应用程序中添加漂亮的横幅.
 -   [base64Captcha](https://github.com/mojocn/base64Captcha)BASIC 64 CAPTCH支持数字,数字,字母,算术,音频和数字字母CATCTHA.
@@ -1080,7 +1081,7 @@
 -   [pop/soda](https://github.com/gobuffalo/pop)-数据库迁移、创建、ORM等.对于MySQL、PostgreSQL和SQLite.
 -   [QBS](https://github.com/coocood/qbs)-用结构表示查询.一个ORM.
 -   [reform](https://github.com/go-reform/reform)-更好的ORM,基于非空接口和代码生成.
--   [SQLBoiler](https://github.com/volatiletech/sqlboiler)ORM发生器.生成适合于数据库模式的特征和快速的ORM.
+-   [SQLBoiler](https://github.com/volatiletech/sqlboiler)ORM发生器.生成适合于数据库模式的功能和快速的ORM.
 -   [upper.io/db](https://github.com/upper/db)-通过使用成熟的数据库驱动程序的适配器来与不同的数据源交互的单一接口.
 -   [Xorm](https://github.com/go-xorm/xorm)-简单有力的ORM.
 -   [Zoom](https://github.com/albrow/zoom)-在ReDIS上创建快速数据存储和查询引擎.
@@ -1215,7 +1216,7 @@
 -   [discovery](https://github.com/Bilibili/discovery)-弹性中间层负载平衡和故障转移的注册表.
 -   [etcd](https://github.com/coreos/etcd)-用于共享配置和服务发现的高度可用的密钥值存储.
 -   [Fider](https://github.com/getfider/fider)- Fider是一个开放的平台来收集和组织客户反馈.
--   [Flagr](https://github.com/checkr/flagr)- Flagr是一个开放源码的特征标记和A/B测试服务.
+-   [Flagr](https://github.com/checkr/flagr)- Flagr是一个开放源码的功能标记和A/B测试服务.
 -   [jackal](https://github.com/ortuman/jackal)-用Go编写的XMPP服务器.
 -   [minio](https://github.com/minio/minio)MIIO是一个分布式对象存储服务器.
 -   [nsq](http://nsq.io/)-实时分布式消息传递平台.
@@ -1228,7 +1229,7 @@
 
 -   [ace](https://github.com/yosssi/ace)ACE是Go的HTML模板引擎,由SLIM和杰德启发.王牌是精金的.
 -   [amber](https://github.com/eknkc/amber)安伯是一个优雅的模板引擎,用于Go程序设计语言,灵感来自汉姆和杰德.
--   [damsel](https://github.com/dskinner/damsel)-标记语言,其特征在于HTML通过CSS选择器勾画,可通过PKG HTML/模板等扩展.
+-   [damsel](https://github.com/dskinner/damsel)-标记语言,其功能在于HTML通过CSS选择器勾画,可通过PKG HTML/模板等扩展.
 -   [ego](https://github.com/benbjohnson/ego)-轻量级模板语言,允许您在Go中编写模板.模板被翻译成Go和编译.
 -   [extemplate](https://github.com/dannyvankooten/extemplate)-围绕HTML/模板的小型包装器,允许基于文件的模板继承.
 -   [fasttemplate](https://github.com/valyala/fasttemplate)-简单快速的模板引擎.替代模板占位符达到10X快[text/template](http://golang.org/pkg/text/template/).
@@ -1784,7 +1785,7 @@
 -   [gb](https://getgb.io/)-一种易于使用的基于项目的构建工具,用于Go程序设计语言.
 -   [generator-go-lang](https://github.com/axelspringer/generator-go-lang)-A[Yeoman](http://yeoman.io)生成器启动新的Go项目.
 -   [go-callvis](https://github.com/TrueFurby/go-callvis)用点格式可视化你的Go程序的调用图.
--   [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete)为Go和WGo完成BASH.
+-   [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete)为Go和WGo完成bash.
 -   [go-swagger](https://github.com/go-swagger/go-swagger)-炫耀2实现的Go.Savigle是一个简单但功能强大的REST API.
 -   [OctoLinker](https://github.com/OctoLinker/browser-extension)-使用GoTHUB的OctoLink浏览器扩展,有效地浏览Go文件.
 -   [richgo](https://github.com/kyoh86/richgo)-丰富`go test`具有文本装饰的输出.
@@ -1850,7 +1851,7 @@
 
 ### 其他软件
 
--   [borg](https://github.com/crufter/borg)-基于BASH片段的基于终端的搜索引擎.
+-   [borg](https://github.com/crufter/borg)-基于bash片段的基于终端的搜索引擎.
 -   [boxed](https://github.com/tejo/boxed)基于Dropbox的博客引擎.
 -   [Cherry](https://github.com/rafael-santiago/cherry)-微型网络聊天服务器进入.
 -   [Circuit](https://github.com/gocircuit/circuit)- Cir.是可编程平台即服务(PaaS)和/或基础设施即服务(IaaS),用于管理、发现、同步和编排包括云应用程序的服务和主机.
@@ -1911,13 +1912,13 @@
 
 -   [autobench](https://github.com/davecheney/autobench)框架来比较不同Go版本之间的性能.
 -   [go-benchmark-app](https://github.com/mrLSD/go-benchmark-app)-强大的HTTP基准工具,与B,WRK,围攻工具混合.收集基准和比较结果的统计和各种参数.
--   [go-benchmarks](https://github.com/tylertreat/go-benchmarks)-很少有其他的Go微基准.将一些语言特征与替代方法进行比较.
+-   [go-benchmarks](https://github.com/tylertreat/go-benchmarks)-很少有其他的Go微基准.将一些语言功能与替代方法进行比较.
 -   [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark)-去HTTP请求路由器基准和比较.
 -   [go-type-assertion-benchmark](https://github.com/hgfischer/go-type-assertion-benchmark)-对在Go中进行类型断言的两种方式进行天真的性能测试.
 -   [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark)-去Web框架基准.
 -   [go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks)Go序列化方法的基准.
 -   [gocostmodel](https://github.com/PuerkitoBio/gocostmodel)- Go语言常用的基本操作的基准.
--   [golang-micro-benchmarks](https://github.com/amscanne/golang-micro-benchmarks)微微的Go微基准.其目的是将一些语言特征与其他语言进行比较.
+-   [golang-micro-benchmarks](https://github.com/amscanne/golang-micro-benchmarks)微微的Go微基准.其目的是将一些语言功能与其他语言进行比较.
 -   [golang-sql-benchmark](https://github.com/tyler-smith/golang-sql-benchmark)-收集流行的Go数据库/ SQL实用工具的基准.
 -   [gospeed](https://github.com/feyeleanor/GoSpeed)去微基准来计算语言结构的速度.
 -   [kvbench](https://github.com/jimrobinson/kvbench)-关键字/值数据库基准.
@@ -1961,7 +1962,7 @@
 ## Gophers地鼠
 
 -   [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector)Goector矢量数据[A.SVG,]
--   [gopher-logos](https://github.com/GolangUA/gopher-logos)可爱的地鼠标志
+-   [gopher-logos](https://github.com/GolangUA/gopher-logos)可爱的地鼠flag
 -   [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
 -   [gopher-vector](https://github.com/golang-samples/gopher-vector)
 -   [gophericons](https://github.com/shalakhin/gophericons)
