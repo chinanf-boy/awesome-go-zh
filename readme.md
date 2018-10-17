@@ -36,7 +36,7 @@
 
 ---
 
-> **很多同类型的库的简介是如此的类似，加了star数, 但请记住star并不代表一切**
+<!-- > **很多同类型的库的简介是如此的类似，加了star数, 但请记住star并不代表一切** -->
 
 # Awesome Go
 
@@ -66,7 +66,7 @@
   - [x] [配置](#%E9%85%8D%E7%BD%AE)
   - [x] [持续集成](#%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90)
   - [x] [CSS预处理器](#css%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8)
-  - [数据结构](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+  - [x] [数据结构](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
   - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
   - [数据库驱动程序](#%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F)
   - [日期和时间](#%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4)
@@ -315,48 +315,50 @@
 *Go中的通用数据结构和算法.*
 
 -   [algorithms](https://github.com/shady831213/algorithms)- 算法和数据结构.
--   [binpacker](https://github.com/zhuangsirui/binpacker)- 二进制打包器和解压器帮助用户构建自定义二进制流.
+-   [binpacker](https://github.com/zhuangsirui/binpacker)- 二进制打包器和解压器, 帮助用户构建自定义二进制流.
 -   [bit](https://github.com/yourbasic/bit)- Golang设置数据结构,具有额外的比特删除功能.
--   [bitset](https://github.com/willf/bitset)-去实现比特集.
--   [bloom](https://github.com/zhenjl/bloom)在Go中实现Bloom过滤器.
--   [bloom](https://github.com/yourbasic/bloom)- Golang Bloom滤波器实现.
--   [boomfilters](https://github.com/tylertreat/BoomFilters)-用于处理连续无界流的概率数据结构.
--   [concurrent-writer](https://github.com/free/concurrent-writer)-高度并发跌落替换`bufio.Writer`.
+-   [bitset](https://github.com/willf/bitset)-实现比特集合.
+-   [bloom](https://github.com/zhenjl/bloom)-在Go中实现Bloom过滤器.
+-   [bloom](https://github.com/yourbasic/bloom)- Golang Bloom过滤器实现.
+-   [boomfilters](https://github.com/tylertreat/BoomFilters)-用于处理连续,无界流的概率数据结构.
+-   [concurrent-writer](https://github.com/free/concurrent-writer)-高度并发，深替换`bufio.Writer`.
 -   [conjungo](https://github.com/InVisionApp/conjungo)-一个小的、强大的和灵活的合并库.
 -   [count-min-log](https://github.com/seiflotfy/count-min-log)-Go实现Count-Min-Log示意图:使用近似计数器进行近似计数(类似于Count-Min示意图,但是使用较少的内存).
--   [cuckoofilter](https://github.com/seiflotfy/cuckoofilter)布谷鸟过滤器:在Go中实现计数布隆过滤器的一种好方法.
--   [deque](https://github.com/gammazero/deque)快速环缓冲器DIQE(双端队列).
+-   [cuckoofilter](https://github.com/seiflotfy/cuckoofilter)-布谷鸟过滤器:在Go中实现计数bloom过滤器的一种好方法.
+-   [deque](https://github.com/gammazero/deque)-快速环缓冲器deque(**double-ended queue**双端队列).
 -   [encoding](https://github.com/zhenjl/encoding)-用于Go的整数压缩库.
 -   [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree)-实现自适应基数树.
--   [go-datastructures](https://github.com/Workiva/go-datastructures)-收集有用、性能和线程安全的数据结构.
+-   [go-datastructures](https://github.com/Workiva/go-datastructures)-收集有用、高性能和线程安全的数据结构.
 -   [go-ef](https://github.com/amallia/go-ef)- Elias Fano编码的Go实现.
--   [go-geoindex](https://github.com/hailocab/go-geoindex)内存中的GEO索引.
--   [go-mcache](https://github.com/OrlovEvgeny/go-mcache)快速内存键:值存储/缓存库.指针缓存.
+-   [go-geoindex](https://github.com/hailocab/go-geoindex)-内存中的geo索引.
+-   [go-mcache](https://github.com/OrlovEvgeny/go-mcache)-快速内存 key:value  store/cache 库.指针缓存.
 -   [go-rquad](https://github.com/aurelien-rainone/go-rquad)-区域四叉树,具有有效的点定位和邻居发现.
--   [gods](https://github.com/emirpasic/gods)-去数据结构.容器,集合,列表,Stacks,地图,双底盘,树木,HashSet等.
--   [golang-set](https://github.com/deckarep/golang-set)线程安全和非线程安全的高性能设置为Go.
--   [goset](https://github.com/zoumo/goset)-用于Go的有用集合集合实现.
--   [goskiplist](https://github.com/ryszard/goskiplist)在Go中跳过列表实现.
+-   [gods](https://github.com/emirpasic/gods)-Go数据结构. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet等.
+-   [golang-set](https://github.com/deckarep/golang-set)-线程安全和非线程安全的高性能sets.
+-   [goset](https://github.com/zoumo/goset)-用于Go的有用set集合实现.
+-   [goskiplist](https://github.com/ryszard/goskiplist)-Skip list实现.
 -   [gota](https://github.com/kniren/gota)-实现数据流、系列和数据争用方法.
--   [hilbert](https://github.com/google/hilbert)-Go用于将值映射到空间填充曲线,如希尔伯特和Peao曲线.
--   [hyperloglog](https://github.com/axiomhq/hyperloglog)-用稀疏、LogLoggβ偏置校正和尾迹空间缩减实现超对数格.
--   [levenshtein](https://github.com/agext/levenshtein)- LevsHeTin距离和相似度量与可定制的编辑成本和温克勒类似奖金的共同前缀.
--   [levenshtein](https://github.com/agnivade/levenshtein)-实现计算LaveStin距离的Go.
--   [mafsa](https://github.com/smartystreets/mafsa)MA-FSA实现,具有最小完美散列.
--   [merkletree](https://github.com/cbergoon/merkletree)-实现Melkle树,提供对数据结构内容的有效和安全的验证.
--   [mspm](https://github.com/BlackRabbitt/mspm)-多串模式匹配算法的信息检索.
--   [pipeline](https://github.com/hyfather/pipeline)-一种带风扇和扇出的管道的实现.
--   [roaring](https://github.com/RoaringBitmap/roaring)-实现压缩比特集的Go包.
--   [set](https://github.com/StudioSol/set)-使用Link KeasMMAP实现Go中的简单数据结构.
--   [skiplist](https://github.com/MauriceGit/skiplist)-非常快的SKIPLIST实现.
--   [skiplist](https://github.com/gansidui/skiplist)在Go中实现SKIPPLIST.
--   [trie](https://github.com/derekparker/trie)-在Go中实现TIE.
--   [ttlcache](https://github.com/diegobernardes/ttlcache)内存中的LRU字符串接口{}映射为Galang.
--   [willf/bloom](https://github.com/willf/bloom)Go过滤器实现Bloom过滤器.
+-   [hilbert](https://github.com/google/hilbert)-Go用于将值映射到空间填充曲线,如Hilbert 合 Peano曲线.
+-   [hyperloglog](https://github.com/axiomhq/hyperloglog)-HyperLogLog实现了 Sparse, LogLog-Beta bias correction 和 TailCut space reduction.
+-   [levenshtein](https://github.com/agext/levenshtein)- Levenshtein距离和相似度量，与可定制编辑成本和类Winkler bonus的共同前缀.
+-   [levenshtein](https://github.com/agnivade/levenshtein)-实现计算Levenshtein距离.
+-   [mafsa](https://github.com/smartystreets/mafsa)-MA-FSA实现,具有最小完美散列.
+-   [merkletree](https://github.com/cbergoon/merkletree)-实现merkle树,提供对数据结构内容的有效和安全的验证.
+-   [mspm](https://github.com/BlackRabbitt/mspm)-多字符串模式匹配算法的信息检索.
+-   [pipeline](https://github.com/hyfather/pipeline)-一种进进出出的pipeline实现.
+-   [roaring](https://github.com/RoaringBitmap/roaring)-实现压缩比特集合的Go包.
+-   [set](https://github.com/StudioSol/set)-使用LinkedHashMap实现简单set数据结构.
+-   [skiplist](https://github.com/MauriceGit/skiplist)-非常快的Skiplist实现.
+-   [skiplist](https://github.com/gansidui/skiplist)-在Go中实现Skiplist.
+-   [trie](https://github.com/derekparker/trie)-在Go中实现Trie.
+-   [ttlcache](https://github.com/diegobernardes/ttlcache)-内存中的LRU string-interface{}映射，带截止期限.
+-   [willf/bloom](https://github.com/willf/bloom)Go实现Bloom过滤器.
 
 ## 数据库
 
 *Go实现的数据库.*
+
+<!-- Here -->
 
 -   [badger](https://github.com/dgraph-io/badger)-快速键值存储在Go中.
 -   [BigCache](https://github.com/allegro/bigcache)-用于千兆字节数据的高效键/值缓存.
