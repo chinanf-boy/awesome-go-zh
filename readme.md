@@ -143,7 +143,7 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/algoGuy/EasyMIDI.svg?style=plastic&label=Stars) | [EasyMIDI](https://github.com/algoGuy/EasyMIDI) | 是使用标准midi文件(SMF)的简单可靠的库.
 ![GitHub stars](https://img.shields.io/github/stars/eaburns/flac.svg?style=plastic&label=Stars) | [flac](https://github.com/eaburns/flac) | 原生Go FLAC解码器.
@@ -174,16 +174,16 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/volatiletech/authboss.svg?style=plastic&label=Stars) | [authboss](https://github.com/volatiletech/authboss) | 模块化的Web认证系统.它试图移除尽可能多的样板动新的Web项目时,都可以插入、配置并开始构建应用程序,而无需每次都构建身份验证系统.
 ![GitHub stars](https://img.shields.io/github/stars/hako/branca.svg?style=plastic&label=Stars) | [branca](https://github.com/hako/branca) |  Golang实施Branca令牌.
 ![GitHub stars](https://img.shields.io/github/stars/hsluoyz/casbin.svg?style=plastic&label=Stars) | [casbin](https://github.com/hsluoyz/casbin) | 支持ACL、RBAC、ABAC等访问控制模型的认证库.
 ![GitHub stars](https://img.shields.io/github/stars/mengzhuo/cookiestxt.svg?style=plastic&label=Stars) | [cookiestxt](https://github.com/mengzhuo/cookiestxt) | 提供cookies.txt文件格式的解析器.
-![GitHub stars](https://img.shields.io/github/stars/smartystreets/go-aws-auth.svg?style=plastic&label=Stars) | [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth)AWS(Amazon WebServices)请求登录库
+![GitHub stars](https://img.shields.io/github/stars/smartystreets/go-aws-auth.svg?style=plastic&label=Stars) | [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) | AWS(Amazon WebServices)请求登录库
 ![GitHub stars](https://img.shields.io/github/stars/square/go-jose.svg?style=plastic&label=Stars) | [go-jose](https://github.com/square/go-jose) | 完全实现JOSE工作组的JSON Web令牌、JSON Web签名和
 ![GitHub stars](https://img.shields.io/github/stars/RichardKnop/go-oauth2-server.svg?style=plastic&label=Stars) | [go-oauth2-server](https://github.com/RichardKnop/go-oauth2-server) | 独立的,符合规范的,在Golang
-![GitHub stars](https://img.shields.io/github/stars/dghubble/gologin.svg?style=plastic&label=Stars) | [gologin](https://github.com/dghubble/gologin) - 可链接的处理程序,提供与OAuth1和OAuth2身份验证进
+![GitHub stars](https://img.shields.io/github/stars/dghubble/gologin.svg?style=plastic&label=Stars) | [gologin](https://github.com/dghubble/gologin) | 可链接的处理程序,提供与OAuth1和OAuth2身份验证进
 ![GitHub stars](https://img.shields.io/github/stars/mikespook/gorbac.svg?style=plastic&label=Stars) | [gorbac](https://github.com/mikespook/gorbac) | 在Golang中提供一种轻量级的基于角色的访问控制(RBAC)
 ![GitHub stars](https://img.shields.io/github/stars/markbates/goth.svg?style=plastic&label=Stars) | [goth](https://github.com/markbates/goth) | 提供了一种简单、干净和惯用的OAuth和 OAuth2方式. 可处理多
 ![GitHub stars](https://img.shields.io/github/stars/goji/httpauth.svg?style=plastic&label=Stars) | [httpauth](https://github.com/goji/httpauth) |  HTTP认证中间件.
@@ -216,7 +216,7 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/akamensky/argparse.svg?style=plastic&label=Stars) | [argparse](https://github.com/akamensky/argparse) | 命令行参数分析器,由Python的argparse模块启发.
 ![GitHub stars](https://img.shields.io/github/stars/cosiner/argv.svg?style=plastic&label=Stars) | [argv](https://github.com/cosiner/argv) | 当使用bash语法时,拆分命令行字符串为参数数组的Go库.
@@ -235,14 +235,14 @@
 ![GitHub stars](https://img.shields.io/github/stars/alexflint/go-arg.svg?style=plastic&label=Stars) | [go-arg](https://github.com/alexflint/go-arg) |  基于结构的参数解析.
 ![GitHub stars](https://img.shields.io/github/stars/yitsushi/go-commander.svg?style=plastic&label=Stars) | [go-commander](https://github.com/yitsushi/go-commander) |  Go库简化CLI工作流程
 ![GitHub stars](https://img.shields.io/github/stars/jessevdk/go-flags.svg?style=plastic&label=Stars) | [go-flags](https://github.com/jessevdk/go-flags) |  go命令行选项解析器.
-![GitHub stars](https://img.shields.io/github/stars/devfacet/gocmd.svg?style=plastic&label=Stars) | [gocmd](https://github.com/devfacet/gocmd) - 用于构建命令行应用程序的Go库.
+![GitHub stars](https://img.shields.io/github/stars/devfacet/gocmd.svg?style=plastic&label=Stars) | [gocmd](https://github.com/devfacet/gocmd) | 用于构建命令行应用程序的Go库.
 ![GitHub stars](https://img.shields.io/github/stars/alecthomas/kingpin.svg?style=plastic&label=Stars) | [kingpin](https://github.com/alecthomas/kingpin) | 支持子命令的命令行和flag分析器.
 ![GitHub stars](https://img.shields.io/github/stars/peterh/liner.svg?style=plastic&label=Stars) | [liner](https://github.com/peterh/liner) | 用于命令行接口的类readline库.
 ![GitHub stars](https://img.shields.io/github/stars/mitchellh/cli.svg?style=plastic&label=Stars) | [mitchellh/cli](https://github.com/mitchellh/cli) | 用于实现命令行接口的Go库.
 ![GitHub stars](https://img.shields.io/github/stars/jawher/mow.cli.svg?style=plastic&label=Stars) | [mow.cli](https://github.com/jawher/mow.cli) | 用复杂flag和参数解析和验证来构建CLI应用程序的Go库.
 ![GitHub stars](https://img.shields.io/github/stars/spf13/pflag.svg?style=plastic&label=Stars) | [pflag](https://github.com/spf13/pflag) | 在Go的flag包中进行替换,实现POSIX/GNU样式 `--flags`.
 ![GitHub stars](https://img.shields.io/github/stars/chzyer/readline.svg?style=plastic&label=Stars) | [readline](https://github.com/chzyer/readline) | 纯Go实现,它提供了GNU-Readline中的大多数功能.MIT许
-![GitHub stars](https://img.shields.io/github/stars/octago/sflags.svg?style=plastic&label=Stars) | [sflags](https://github.com/octago/sflags)基于结构的flag生成器,用于`flag, urfave/cli, pflag, 
+![GitHub stars](https://img.shields.io/github/stars/octago/sflags.svg?style=plastic&label=Stars) | [sflags](https://github.com/octago/sflags) | 基于结构的flag生成器,用于`flag, urfave/cli, pflag, 
 ![GitHub stars](https://img.shields.io/github/stars/antham/strumt.svg?style=plastic&label=Stars) | [strumt](https://github.com/antham/strumt) | 创建即时链接库.
 ![GitHub stars](https://img.shields.io/github/stars/ukautz/clif.svg?style=plastic&label=Stars) | [ukautz/clif](https://github.com/ukautz/clif) | 小型命令行接口框架.
 ![GitHub stars](https://img.shields.io/github/stars/urfave/cli.svg?style=plastic&label=Stars) | [urfave/cli](https://github.com/urfave/cli) | 简单,快速,有趣的软件包构建命令行应用程序在Go(以前
@@ -258,9 +258,9 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
-![GitHub stars](https://img.shields.io/github/stars/logrusorgru/aurora.svg?style=plastic&label=Stars) | [aurora](https://github.com/logrusorgru/aurora)支持fmt.Printf/Sprintf的ANSI终端颜色.
+![GitHub stars](https://img.shields.io/github/stars/logrusorgru/aurora.svg?style=plastic&label=Stars) | [aurora](https://github.com/logrusorgru/aurora) | 支持fmt.Printf/Sprintf的ANSI终端颜色.
 ![GitHub stars](https://img.shields.io/github/stars/mingrammer/cfmt.svg?style=plastic&label=Stars) | [cfmt](https://github.com/mingrammer/cfmt) | 属于你的fmt由bootstrap颜色类启发.
 ![GitHub stars](https://img.shields.io/github/stars/ttacon/chalk.svg?style=plastic&label=Stars) | [chalk](https://github.com/ttacon/chalk) | 用于美化terminal/console输出的直观包.
 ![GitHub stars](https://img.shields.io/github/stars/fatih/color.svg?style=plastic&label=Stars) | [color](https://github.com/fatih/color) | 彩色终端输出的通用封装.
@@ -272,12 +272,12 @@
 ![GitHub stars](https://img.shields.io/github/stars/mattn/go-isatty.svg?style=plastic&label=Stars) | [go-isatty](https://github.com/mattn/go-isatty) | go的你在哪个终端.
 ![GitHub stars](https://img.shields.io/github/stars/c-bata/go-prompt.svg?style=plastic&label=Stars) | [go-prompt](https://github.com/c-bata/go-prompt) | 为构建强大的互动提示,受到[python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)启发.
 ![GitHub stars](https://img.shields.io/github/stars/jroimartin/gocui.svg?style=plastic&label=Stars) | [gocui](https://github.com/jroimartin/gocui) | 极简主义Go库,旨在创建控制台用户界面.
--   [gommon/color](https://github.com/labstack/gommon/tree/master/color)样式化的终端文本.
+![GitHub stars](https://img.shields.io/github/stars/labstack/gommon.svg?style=plastic&label=Stars) |   [gommon/color](https://github.com/labstack/gommon/tree/master/color) | 样式化的终端文本.
 ![GitHub stars](https://img.shields.io/github/stars/gookit/color.svg?style=plastic&label=Stars) | [gookit/color](https://github.com/gookit/color) | 终端显色工具库,支持16种颜色,256种颜色,RGB颜色渲染
 ![GitHub stars](https://img.shields.io/github/stars/vbauerster/mpb.svg?style=plastic&label=Stars) | [mpb](https://github.com/vbauerster/mpb) | 用于终端应用的多进度条.
 ![GitHub stars](https://img.shields.io/github/stars/schollz/progressbar.svg?style=plastic&label=Stars) | [progressbar](https://github.com/schollz/progressbar) | 在每个操作系统中工作的基本线程安全进度条.
 ![GitHub stars](https://img.shields.io/github/stars/alexeyco/simpletable.svg?style=plastic&label=Stars) | [simpletable](https://github.com/alexeyco/simpletable) | 终端中简单表格.
-![GitHub stars](https://img.shields.io/github/stars/InVisionApp/tabular.svg?style=plastic&label=Stars) | [tabular](https://github.com/InVisionApp/tabular) | 从命令行实用工具打印ASCII表格, 而不需要将大量数
+![GitHub stars](https://img.shields.io/github/stars/InVisionApp/tabular.svg?style=plastic&label=Stars) | [tabular](https://github.com/InVisionApp/tabular) | 从命令行实用工具打印ASCII表格, 而不需要将大量数据导入API
 ![GitHub stars](https://img.shields.io/github/stars/nsf/termbox-go.svg?style=plastic&label=Stars) | [termbox-go](https://github.com/nsf/termbox-go) | 是一个用于创建跨平台的基于文本的接口库.
 ![GitHub stars](https://img.shields.io/github/stars/apcera/termtables.svg?style=plastic&label=Stars) | [termtables](https://github.com/apcera/termtables) | Ruby库[terminal-tables](https://github.com/tj/terminal-table)的Go实现部分，用于简单的ASCII表格生成以及提供markdown和HTML输出.
 ![GitHub stars](https://img.shields.io/github/stars/gizak/termui.svg?style=plastic&label=Stars) | [termui](https://github.com/gizak/termui) | 基于**termbox-go**的终端仪表板，和受到[blessed-contrib](https://github.com/yaronn/blessed-contrib)启发.
@@ -295,7 +295,7 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/olebedev/config.svg?style=plastic&label=Stars) | [config](https://github.com/olebedev/config) | JSON或YAML配置包,包含环境变量和flag解析.
 ![GitHub stars](https://img.shields.io/github/stars/paked/configure.svg?style=plastic&label=Stars) | [configure](https://github.com/paked/configure) | 通过多个源提供配置,包括JSON、flag和环境变量.
@@ -311,14 +311,14 @@
 ![GitHub stars](https://img.shields.io/github/stars/crgimenes/goConfig.svg?style=plastic&label=Stars) | [goConfig](https://github.com/crgimenes/goConfig) | 将结构解析为输入,和用来自命令行、环境变量和配置文
 ![GitHub stars](https://img.shields.io/github/stars/joho/godotenv.svg?style=plastic&label=Stars) | [godotenv](https://github.com/joho/godotenv) | Ruby  dotenv库的Go部分(从`.env`加载环境变量)
 ![GitHub stars](https://img.shields.io/github/stars/ian-kent/gofigure.svg?style=plastic&label=Stars) | [gofigure](https://github.com/ian-kent/gofigure) | 应用程序配置很容易.
-![GitHub stars](https://img.shields.io/github/stars/One-com/gone.svg?style=plastic&label=Stars) | [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) 模块化JSON配置.保持配置结构，以[gookit/config](https://github.com/gookit/config)应用配置管理(加载,获取,设置).支持JSON、YAML、
+![GitHub stars](https://img.shields.io/github/stars/One-com/gone.svg?style=plastic&label=Stars) | [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) | WS(Amazon WebServices)请求登模块化JSON配置.保持配置结构，以[gookit/config](https://github.com/gookit/config)应用配置管理(加载,获取,设置).支持JSON、YAML、
 ![GitHub stars](https://img.shields.io/github/stars/hjson/hjson-go.svg?style=plastic&label=Stars) | [hjson](https://github.com/hjson/hjson-go) | 人类JSON,是人类的配置文件格式.轻松的语法,更少的错误,更多
 ![GitHub stars](https://img.shields.io/github/stars/schachmat/ingo.svg?style=plastic&label=Stars) | [ingo](https://github.com/schachmat/ingo) | Flags保存在INI类配置文件中.
 ![GitHub stars](https://img.shields.io/github/stars/go-ini/ini.svg?style=plastic&label=Stars) | [ini](https://github.com/go-ini/ini) | 去读和写INI文件.
-![GitHub stars](https://img.shields.io/github/stars/joshbetz/config.svg?style=plastic&label=Stars) | [joshbetz/config](https://github.com/joshbetz/config) | 用于解析环境变量、JSON文件, 并在SIGHUP上自
+![GitHub stars](https://img.shields.io/github/stars/joshbetz/config.svg?style=plastic&label=Stars) | [joshbetz/config](https://github.com/joshbetz/config) | 用于解析环境变量、JSON文件, 并在SIGHUP上自动重载
 ![GitHub stars](https://img.shields.io/github/stars/kelseyhightower/envconfig.svg?style=plastic&label=Stars) | [kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig) | 从环境变量管理配置数
 ![GitHub stars](https://img.shields.io/github/stars/sasbury/mini.svg?style=plastic&label=Stars) | [mini](https://github.com/sasbury/mini) | 解析ini样式的配置文件的Golang包.
-![GitHub stars](https://img.shields.io/github/stars/oblq/sprbox.svg?style=plastic&label=Stars) | [sprbox](https://github.com/oblq/sprbox) | 构建环境感知工具箱工厂和无论配置解析器(YAML、TAML、JSON和
+![GitHub stars](https://img.shields.io/github/stars/oblq/sprbox.svg?style=plastic&label=Stars) | [sprbox](https://github.com/oblq/sprbox) | 构建环境感知工具箱工厂和无论配置解析器(YAML、TAML、JSON和环境变量)
 ![GitHub stars](https://img.shields.io/github/stars/tucnak/store.svg?style=plastic&label=Stars) | [store](https://github.com/tucnak/store) | 为Go提供轻量级配置管理器.
 ![GitHub stars](https://img.shields.io/github/stars/spf13/viper.svg?style=plastic&label=Stars) | [viper](https://github.com/spf13/viper) | 撕咬配置.
 ![GitHub stars](https://img.shields.io/github/stars/OpenPeeDeeP/xdg.svg?style=plastic&label=Stars) | [xdg](https://github.com/OpenPeeDeeP/xdg) | 跨平台软件包根据[XDG 标准]
@@ -333,7 +333,7 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/drone/drone.svg?style=plastic&label=Stars) | [drone](https://github.com/drone/drone) | 是一个建立在Docker上的持续集成平台,写于Go中.
 ![GitHub stars](https://img.shields.io/github/stars/duck8823/duci.svg?style=plastic&label=Stars) | [duci](https://github.com/duck8823/duci) | 一个简单的CI服务器，不管特定语言.
@@ -347,9 +347,16 @@
 
 *用于预处理CSS文件的库.*
 
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/c9s/c6.svg?style=plastic&label=Stars) | [c6](https://github.com/c9s/c6) | 高性能的SASS兼容编译器,用Go编写.
 ![GitHub stars](https://img.shields.io/github/stars/yosssi/gcss.svg?style=plastic&label=Stars) | [gcss](https://github.com/yosssi/gcss) | 纯Go CSS预处理器.
 ![GitHub stars](https://img.shields.io/github/stars/wellington/go-libsass.svg?style=plastic&label=Stars) | [go-libsass](https://github.com/wellington/go-libsass) | Go包装100%兼容SASS的libsass项目.
+</details>
 
 ## 数据结构
 
@@ -359,7 +366,7 @@
 
 <summary> :point_down: 下拉 </summary>
 
-stars | name | desc
+stars | name | desc
 ---|---|---
 ![GitHub stars](https://img.shields.io/github/stars/shady831213/algorithms.svg?style=plastic&label=Stars) | [algorithms](https://github.com/shady831213/algorithms) |  算法和数据结构.
 ![GitHub stars](https://img.shields.io/github/stars/zhuangsirui/binpacker.svg?style=plastic&label=Stars) | [binpacker](https://github.com/zhuangsirui/binpacker) |  二进制打包器和解压器, 帮助用户构建自定义二进制包
@@ -380,7 +387,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/hailocab/go-geoindex.svg?style=plastic&label=Stars) | [go-geoindex](https://github.com/hailocab/go-geoindex) | 内存中的geo索引.
 ![GitHub stars](https://img.shields.io/github/stars/OrlovEvgeny/go-mcache.svg?style=plastic&label=Stars) | [go-mcache](https://github.com/OrlovEvgeny/go-mcache) | 快速内存 key:value  store/cache 库.指针
 ![GitHub stars](https://img.shields.io/github/stars/aurelien-rainone/go-rquad.svg?style=plastic&label=Stars) | [go-rquad](https://github.com/aurelien-rainone/go-rquad) | 区域四叉树,具有有效的点定位和邻居发现.
-![GitHub stars](https://img.shields.io/github/stars/emirpasic/gods.svg?style=plastic&label=Stars) | [gods](https://github.com/emirpasic/gods) | G数o据结构. Containers, Sets, Lists, Stacks, Maps,
+![GitHub stars](https://img.shields.io/github/stars/emirpasic/gods.svg?style=plastic&label=Stars) | [gods](https://github.com/emirpasic/gods) | Go数据结构. Containers, Sets, Lists, Stacks, Maps,
 ![GitHub stars](https://img.shields.io/github/stars/deckarep/golang-set.svg?style=plastic&label=Stars) | [golang-set](https://github.com/deckarep/golang-set) | 线程安全和非线程安全的高性能sets.
 ![GitHub stars](https://img.shields.io/github/stars/zoumo/goset.svg?style=plastic&label=Stars) | [goset](https://github.com/zoumo/goset) | 用于Go的有用set集合实现.
 ![GitHub stars](https://img.shields.io/github/stars/ryszard/goskiplist.svg?style=plastic&label=Stars) | [goskiplist](https://github.com/ryszard/goskiplist) | Skip list实现.
@@ -406,7 +413,6 @@
 
 *Go实现的数据库.*
 
-<!-- Here -->
 
 -   [badger](https://github.com/dgraph-io/badger) | 快速键值存储在Go中.
 -   [BigCache](https://github.com/allegro/bigcache) | 用于千兆字节数据的高效键/值缓存.
@@ -857,7 +863,7 @@
 -   [logger](https://github.com/azer/logger) | 最小化的Go日志库.
 -   [logo](https://github.com/mbndr/logo) |  Golang登录到不同的可配置的作家.
 -   [logrus](https://github.com/Sirupsen/logrus)Go结构日志记录器.
--   [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus)插件将错误发送到[Loggly](https://www.loggly.com/).
+-   [logrusly](https://github.com/sebest/logrusly) | [logrus](https://github.com/sirupsen/logrus)插件将错误发送到[Loggly](https://www.loggly.com/).
 -   [logutils](https://github.com/hashicorp/logutils) | 用于稍微更好地登录Go(Golang)的实用工具,扩展标准记录器.
 -   [logxi](https://github.com/mgutz/logxi)12因素APP记录器,速度快,让你快乐.
 -   [lumberjack](https://github.com/natefinch/lumberjack) | 简单滚动记录器,实现IO.WrreCuleSER.
@@ -1154,7 +1160,7 @@
 -   [gopm](https://github.com/gpmgo/gopm) | 打包管理器.
 -   [govendor](https://github.com/kardianos/govendor) | 打包管理器.转到与标准供应商文件一起工作的供应商工具.
 -   [gpm](https://github.com/pote/gpm) |  BAR依赖性管理器.
--   [gvt](https://github.com/FiloSottile/gvt) - `gvt`是一个简单的售货工具,为Go原生Destern(又名Go15VANDORACE实验),基于GB供应商.
+-   [gvt](https://github.com/FiloSottile/gvt) | `gvt`是一个简单的售货工具,为Go原生Destern(又名Go15VANDORACE实验),基于GB供应商.
 -   [johnny-deps](https://github.com/VividCortex/johnny-deps) | 使用Git的最小依赖版本.
 -   [nut](https://github.com/jingweno/nut) | 供应商去依赖.
 -   [VenGo](https://github.com/DamnWidget/VenGo) | 创建和管理可导出的隔离虚拟环境.
@@ -1509,7 +1515,7 @@
 -   [clockwork](https://github.com/whiteShtef/clockwork) | 简单和直观的作业调度库中的Go.
 -   [command](https://github.com/txgruppi/command) | 线程安全串行和并行调度器的命令模式.
 -   [copy-pasta](https://github.com/jutkko/copy-pasta) | 通用多工作站剪贴板,使用S3类后端进行存储.
--   [ctop](https://github.com/bcicen/ctop) - [Top-like](http://ctop.sh)容器度量的接口(例如HTTH).
+-   [ctop](https://github.com/bcicen/ctop) | [Top-like](http://ctop.sh)容器度量的接口(例如HTTH).
 -   [Death](https://github.com/vrecan/death) | 用信号管理Go应用程序关闭.
 -   [Deepcopier](https://github.com/ulule/deepcopier)为Go的简单结构复制.
 -   [delve](https://github.com/derekparker/delve) | 转到调试器.
@@ -1567,7 +1573,7 @@
 -   [httpcontrol](https://github.com/facebookgo/httpcontrol) | 包HTTP-控件允许HTTP传输级别控制围绕超时和重试.
 -   [hub](https://github.com/github/hub)用附加功能包装Git命令,与终端交互GITHUB.
 -   [hystrix-go](https://github.com/afex/hystrix-go) | 实现程序员定义的回退,也就是断路器的HySrx模式.
--   [immortal](https://github.com/immortal/immortal) - \*NIX跨平台(OS不可知)监控器.
+-   [immortal](https://github.com/immortal/immortal) | \*NIX跨平台(OS不可知)监控器.
 -   [intrinsic](https://github.com/mengzhuo/intrinsic) | 使用X86 SIMD而不编写任何汇编代码.
 -   [JobRunner](https://github.com/bamzi/jobrunner) | 智能和特色的CRON作业调度程序内置作业队列和实时监控.
 -   [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) | 基于JSONAPI API引用进行绑定.
