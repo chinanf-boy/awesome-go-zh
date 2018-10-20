@@ -67,7 +67,7 @@
   - [x] [持续集成](#%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90)
   - [x] [CSS预处理器](#css%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8)
   - [x] [数据结构](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
-  - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
+  - [x] [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
   - [数据库驱动程序](#%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F)
   - [日期和时间](#%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4)
   - [分布式系统](#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F)
@@ -328,7 +328,7 @@ stars | name | desc
 ## 持续集成
 
 *持续集成的帮助工具.*
-
+v
 <details>
 
 <summary> :point_down: 下拉 </summary>
@@ -411,83 +411,110 @@ stars | name | desc
 
 ## 数据库
 
-*Go实现的数据库.*
+### Go实现的数据库.
 
+<details>
 
--   [badger](https://github.com/dgraph-io/badger) | 快速键值存储在Go中.
--   [BigCache](https://github.com/allegro/bigcache) | 用于千兆字节数据的高效键/值缓存.
--   [bolt](https://github.com/boltdb/bolt) | Go的低级密钥/值数据库.
--   [buntdb](https://github.com/tidwall/buntdb) | 快速、可嵌入、内存中的键/值数据库,用于自定义索引和空间支持.
--   [cache2go](https://github.com/muesli/cache2go)内存键:支持基于超时的自动失效的值缓存.
--   [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache)BigCHIGH与集群支持和个别项目到期.
--   [cockroach](https://github.com/cockroachdb/cockroach) | 可伸缩的、地理复制的、事务性的数据存储.
--   [couchcache](https://github.com/codingsince1985/couchcache) | 由CoucBaseServer支持的REST高速缓存微服务.
--   [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL) |  CovenantSQL是BooStand上的SQL数据库.
--   [dgraph](https://github.com/dgraph-io/dgraph) | 可扩展、分布式、Low Latency、高吞吐量图形数据库.
--   [diskv](https://github.com/peterbourgon/diskv) | 自带的磁盘备份键值存储.
--   [eliasdb](https://github.com/krotik/eliasdb) | 无依赖、事务性图形数据库,具有REST API、短语搜索和SQL类查询语言.
--   [forestdb](https://github.com/couchbase/goforestdb) | 为FordestDB绑定.
--   [GCache](https://github.com/bluele/gcache) | 缓存库,支持可缓存的高速缓存、LFU、LRU和ARC.
--   [go-cache](https://github.com/pmylund/go-cache)内存中的键:值存储/缓存(类似于Mycache)的Go库,适用于单机应用程序.
--   [goleveldb](https://github.com/syndtr/goleveldb) | 实现[LevelDB](https://github.com/google/leveldb)Go中的关键字/值数据库.
--   [gorocksdb](https://github.com/kapitan-k/gorocksdb) |  Gorocksdb是一个包装[RocksDB](https://rocksdb.org)写在Go.
--   [groupcache](https://github.com/golang/groupcache)GypCache是一个缓存和缓存填充库,旨在在很多情况下替代Mycache.
--   [influxdb](https://github.com/influxdb/influxdb) | 度量、事件和实时分析的可扩展数据存储.
--   [ledisdb](https://github.com/siddontang/ledisdb)Ledisdb是一个基于LealDB的高性能NoSQL的RIDS.
--   [levigo](https://github.com/jmhodges/levigo) | LeVIO是LealDB的打包器.
--   [moss](https://github.com/couchbase/moss) |  Moss是一个简单的LSM密钥值存储引擎,用100% Go编写.
--   [piladb](https://github.com/fern4lvarez/piladb) | 基于堆栈数据结构的轻量级REST数据库引擎.
--   [prometheus](https://github.com/prometheus/prometheus) | 监控系统和时间序列数据库.
--   [rqlite](https://github.com/rqlite/rqlite) | 基于SQLite构建的轻量级、分布式、关系数据库.
--   [Scribble](https://github.com/nanobox-io/golang-scribble) | 小型平面文件JSON存储.
--   [slowpoke](https://github.com/recoilme/slowpoke) | 具有持久性的键值存储.
--   [tempdb](https://github.com/rafaeljesus/tempdb) | 用于临时项的键值存储.
--   [tidb](https://github.com/pingcap/tidb) |  TiDB是分布式SQL数据库.灵感来自谷歌F1的设计.
--   [tiedot](https://github.com/HouzuoGuo/tiedot) | 由Golang提供的NoSQL数据库.
--   [Vasto](https://github.com/chrislusf/vasto) | 分布式高性能密钥值存储.在磁盘上.最终一致.哈.能够在没有服务中断的情况下生长或收缩.
+<summary> :point_down: 下拉 </summary>
 
-*数据库模式迁移.*
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/dgraph-io/badger.svg?style=plastic&label=Stars) | [badger](https://github.com/dgraph-io/badger) | 快速 键-值 存储在Go中.
+![GitHub stars](https://img.shields.io/github/stars/allegro/bigcache.svg?style=plastic&label=Stars) | [BigCache](https://github.com/allegro/bigcache) | 用于 Gb数据的高效 键/值 缓存.
+![GitHub stars](https://img.shields.io/github/stars/boltdb/bolt.svg?style=plastic&label=Stars) | [bolt](https://github.com/boltdb/bolt) | Go的底层键/值数据库.
+![GitHub stars](https://img.shields.io/github/stars/tidwall/buntdb.svg?style=plastic&label=Stars) | [buntdb](https://github.com/tidwall/buntdb) | 快速、可嵌入、内存中的键/值数据库,支持自定义索引和空间.
+![GitHub stars](https://img.shields.io/github/stars/muesli/cache2go.svg?style=plastic&label=Stars) | [cache2go](https://github.com/muesli/cache2go) | 内存键:支持自动失效的值缓存，基于超时.
+![GitHub stars](https://img.shields.io/github/stars/oaStuff/clusteredBigCache.svg?style=plastic&label=Stars) | [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache) | 集群支持和独立项目期限，基于BigCache.
+![GitHub stars](https://img.shields.io/github/stars/cockroachdb/cockroach.svg?style=plastic&label=Stars) | [cockroach](https://github.com/cockroachdb/cockroach) | 可伸缩的,就近原则、企业级的数据存储.
+![GitHub stars](https://img.shields.io/github/stars/codingsince1985/couchcache.svg?style=plastic&label=Stars) | [couchcache](https://github.com/codingsince1985/couchcache) | 由CouchBase 服务器支持的REST高速缓存微服务.
+![GitHub stars](https://img.shields.io/github/stars/CovenantSQL/CovenantSQL.svg?style=plastic&label=Stars) | [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL) |  CovenantSQL是区块链上的SQL数据库.
+![GitHub stars](https://img.shields.io/github/stars/dgraph-io/dgraph.svg?style=plastic&label=Stars) | [dgraph](https://github.com/dgraph-io/dgraph) | 可扩展、分布式、低风险、高吞吐量图形数据库.
+![GitHub stars](https://img.shields.io/github/stars/peterbourgon/diskv.svg?style=plastic&label=Stars) | [diskv](https://github.com/peterbourgon/diskv) | 家用的，磁盘备份，键值存储.
+![GitHub stars](https://img.shields.io/github/stars/krotik/eliasdb.svg?style=plastic&label=Stars) | [eliasdb](https://github.com/krotik/eliasdb) | 无依赖、交易图形数据库,具有REST API、短语搜索和SQL类查询语言.
+![GitHub stars](https://img.shields.io/github/stars/couchbase/goforestdb.svg?style=plastic&label=Stars) | [forestdb](https://github.com/couchbase/goforestdb) | FordestDB的Go语言绑定.
+![GitHub stars](https://img.shields.io/github/stars/bluele/gcache.svg?style=plastic&label=Stars) | [GCache](https://github.com/bluele/gcache) | 缓存库,支持高速缓存、LFU、LRU和ARC.
+![GitHub stars](https://img.shields.io/github/stars/pmylund/go-cache.svg?style=plastic&label=Stars) | [go-cache](https://github.com/pmylund/go-cache) | 内存中的 键:值 存储/缓存(类似于Memcached)的Go库,适用于单机应用程序.
+![GitHub stars](https://img.shields.io/github/stars/syndtr/goleveldb.svg?style=plastic&label=Stars) | [goleveldb](https://github.com/syndtr/goleveldb) | Go实现[LevelDB](https://github.com/google/leveldb)关键字/值数据库.
+![GitHub stars](https://img.shields.io/github/stars/kapitan-k/gorocksdb.svg?style=plastic&label=Stars) | [gorocksdb](https://github.com/kapitan-k/gorocksdb) |  一个[RocksDB](https://rocksdb.org)包装，Go语言.
+![GitHub stars](https://img.shields.io/github/stars/golang/groupcache.svg?style=plastic&label=Stars) | [groupcache](https://github.com/golang/groupcache)一个缓存和缓存填充库,旨在在很多情况下替代memcached.
+![GitHub stars](https://img.shields.io/github/stars/influxdb/influxdb.svg?style=plastic&label=Stars) | [influxdb](https://github.com/influxdb/influxdb) | 量化、事件和实时分析的可扩展数据存储.
+![GitHub stars](https://img.shields.io/github/stars/siddontang/ledisdb.svg?style=plastic&label=Stars) | [ledisdb](https://github.com/siddontang/ledisdb)一个基于LealDB的类Redis，高性能的NoSQL.
+![GitHub stars](https://img.shields.io/github/stars/jmhodges/levigo.svg?style=plastic&label=Stars) | [levigo](https://github.com/jmhodges/levigo) | LevelDB的打包.
+![GitHub stars](https://img.shields.io/github/stars/couchbase/moss.svg?style=plastic&label=Stars) | [moss](https://github.com/couchbase/moss) |  一个简单的LSM键值存储引擎, 100% Go编写.
+![GitHub stars](https://img.shields.io/github/stars/fern4lvarez/piladb.svg?style=plastic&label=Stars) | [piladb](https://github.com/fern4lvarez/piladb) | 基于堆栈数据结构的轻量级REST数据库引擎.
+![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus.svg?style=plastic&label=Stars) | [prometheus](https://github.com/prometheus/prometheus) | 监控系统和时间序列数据库.
+![GitHub stars](https://img.shields.io/github/stars/rqlite/rqlite.svg?style=plastic&label=Stars) | [rqlite](https://github.com/rqlite/rqlite) | 基于SQLite构建的轻量级、分布式、关系数据库.
+![GitHub stars](https://img.shields.io/github/stars/nanobox-io/golang-scribble.svg?style=plastic&label=Stars) | [Scribble](https://github.com/nanobox-io/golang-scribble) | 小型JSON平面文件的存储.
+![GitHub stars](https://img.shields.io/github/stars/recoilme/slowpoke.svg?style=plastic&label=Stars) | [slowpoke](https://github.com/recoilme/slowpoke) | 具有持久性的键值存储.
+![GitHub stars](https://img.shields.io/github/stars/rafaeljesus/tempdb.svg?style=plastic&label=Stars) | [tempdb](https://github.com/rafaeljesus/tempdb) | 用于临时的键值存储.
+![GitHub stars](https://img.shields.io/github/stars/pingcap/tidb.svg?style=plastic&label=Stars) | [tidb](https://github.com/pingcap/tidb) |  分布式SQL数据库.灵感来自谷歌F1的设计.
+![GitHub stars](https://img.shields.io/github/stars/HouzuoGuo/tiedot.svg?style=plastic&label=Stars) | [tiedot](https://github.com/HouzuoGuo/tiedot) | 你的NoSQL数据库.
+![GitHub stars](https://img.shields.io/github/stars/chrislusf/vasto.svg?style=plastic&label=Stars) | [Vasto](https://github.com/chrislusf/vasto) | 分布式高性能键值存储.在磁盘上.最终保持一致.哈.能够在没有服务中断的情况下，生长或收缩.
+</details>
 
--   [darwin](https://github.com/GuiaBolso/darwin)Go数据库模式演化库.
--   [go-fixtures](https://github.com/RichardKnop/go-fixtures)为Golang优秀的内置数据库/SQL库提供Django风格的夹具.
--   [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations)一个Go包,用于帮助用Go PG/PG编写迁移.
--   [gondolier](https://github.com/emvicom/gondolier)Gondolier是一个使用结构体自动迁移数据库模式的库.
--   [goose](https://github.com/steinbacher/goose) | 数据库迁移工具.您可以通过创建增量SQL或Go脚本来管理数据库的演化.
--   [gormigrate](https://github.com/go-gormigrate/gormigrate)GoRM ORM的数据库模式迁移助手.
--   [migrate](https://github.com/golang-migrate/migrate) | 数据库迁移.CLI和Golang图书馆.
--   [pravasan](https://github.com/pravasan/pravasan) | 简单的迁移工具-目前MySQL,但计划很快支持PistGRs,SQLite,MunGDB等.
--   [soda](https://github.com/gobuffalo/pop/tree/master/soda) | 数据库迁移、创建、ORM等.对于MySQL、PostgreSQL和SQLite.
--   [sql-migrate](https://github.com/rubenv/sql-migrate) | 数据库迁移工具.允许使用Go BiDATA将迁移嵌入到应用程序中.
+### 数据库模式迁移.
 
-*数据库工具.*
+<details>
 
--   [chproxy](https://github.com/Vertamedia/chproxy) | 用于点击数据库的HTTP代理.
--   [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) | 收集小实例并向CLSKEYHOST服务器发送大请求.
--   [go-mysql](https://github.com/siddontang/go-mysql)Go工具集来处理MySQL协议和复制.
--   [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) | 自动将MySQL数据同步到弹性搜索中.
--   [kingshard](https://github.com/flike/kingshard)金山是Golang提供的MySQL的高性能代理.
--   [myreplication](https://github.com/2tvenom/myreplication)MySQL二进制日志复制侦听器.支持语句和行的复制.
--   [orchestrator](https://github.com/github/orchestrator)MySQL复制拓扑管理器和可视化工具.
--   [pgweb](https://github.com/sosedoff/pgweb) | 基于Web的PostgreSQL数据库浏览器.
--   [prep](https://github.com/hexdigest/prep) | 使用准备好的SQL语句而不更改代码.
--   [pREST](https://github.com/nuveo/prest) | 从任何PostgreSQL数据库提供REST API.
--   [rwdb](https://github.com/andizzle/rwdb)RWDB提供多个数据库服务器安装的读取副本能力.
--   [vitess](https://github.com/youtube/vitess)VITESS提供了便于大规模Web服务的MySQL数据库缩放的服务器和工具.
+<summary> :point_down: 下拉 </summary>
 
-*SQL查询构建器,用于构建和使用SQL的库.*
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/GuiaBolso/darwin.svg?style=plastic&label=Stars) | [darwin](https://github.com/GuiaBolso/darwin) | Go数据库模式演化库.
+![GitHub stars](https://img.shields.io/github/stars/RichardKnop/go-fixtures.svg?style=plastic&label=Stars) | [go-fixtures](https://github.com/RichardKnop/go-fixtures) | 为Golang优秀的内置数据库/SQL库，提供Django风格的夹具.
+![GitHub stars](https://img.shields.io/github/stars/robinjoseph08/go-pg-migrations.svg?style=plastic&label=Stars) | [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations) | 一个Go包,用于帮助用go-pg/pg编写的迁移.
+![GitHub stars](https://img.shields.io/github/stars/emvicom/gondolier.svg?style=plastic&label=Stars) | [gondolier](https://github.com/emvicom/gondolier) | 一个使用结构体，自动迁移数据库模式的库.
+![GitHub stars](https://img.shields.io/github/stars/steinbacher/goose.svg?style=plastic&label=Stars) | [goose](https://github.com/steinbacher/goose) | 数据库迁移工具.您可以通过创建增量SQL或Go脚本来管理数据库的演化.
+![GitHub stars](https://img.shields.io/github/stars/go-gormigrate/gormigrate.svg?style=plastic&label=Stars) | [gormigrate](https://github.com/go-gormigrate/gormigrate) | Gorm ORM的数据库模式迁移助手.
+![GitHub stars](https://img.shields.io/github/stars/golang-migrate/migrate.svg?style=plastic&label=Stars) | [migrate](https://github.com/golang-migrate/migrate) | 数据库迁移. Go命令.
+![GitHub stars](https://img.shields.io/github/stars/pravasan/pravasan.svg?style=plastic&label=Stars) | [pravasan](https://github.com/pravasan/pravasan) | 简单的迁移工具-目前MySQL,但计划很快支持`Postgres, SQLite, MongoDB`等.
+![GitHub stars](https://img.shields.io/github/stars/gobuffalo/pop.svg?style=plastic&label=Stars) | [soda](https://github.com/gobuffalo/pop/tree/master/soda) | 数据库迁移、创建、ORM等. 对MySQL, PostgreSQL, 和 SQLite.
+![GitHub stars](https://img.shields.io/github/stars/rubenv/sql-migrate.svg?style=plastic&label=Stars) | [sql-migrate](https://github.com/rubenv/sql-migrate) | 数据库迁移工具.通过使用go-bindata允许将迁移嵌入到应用程序中.
+</details>
 
--   [dat](https://github.com/mgutz/dat) | 去PASGRESS数据访问工具包.
--   [Dotsql](https://github.com/gchaincl/dotsql)Go库,帮助您在一个地方保存SQL文件并轻松使用它们.
--   [gendry](https://github.com/didi/gendry) | 无创SQL生成器和强大的数据绑定器.
--   [godbal](https://github.com/xujiajun/godbal) | 数据库抽象层(DBAL)为Go.支持SQL Builder并轻松获取结果.
--   [goqu](https://github.com/doug-martin/goqu) | 惯用的SQL生成器和查询库.
--   [igor](https://github.com/galeone/igor)PostgreSQL抽象层,它支持高级功能并使用类似GRUM的语法.
--   [ormlite](https://github.com/pupizoid/ormlite) | 轻量级包,包含一些类似于ORM的特性和SQLite数据库的帮助器.
--   [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) | 强大的数据检索方法以及DB不可知查询构建能力.
--   [scaneo](https://github.com/variadico/scaneo)生成Go代码,将数据库行转换为任意结构.
--   [sqrl](https://github.com/elgris/sqrl)SQL查询生成器,具有改进性能的松鼠叉.
--   [Squirrel](https://github.com/Masterminds/squirrel)帮助您构建SQL查询的Go库.
--   [xo](https://github.com/knq/xo) | 基于现有的模式定义或支持PostgreSQL、MySQL、SQLite、Oracle和Microsoft SQL Server的自定义查询为数据库生成惯用Go代码.
+### 数据库工具.
+
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+ ![GitHub stars](https://img.shields.io/github/stars/Vertamedia/chproxy.svg?style=plastic&label=Stars) | [chproxy](https://github.com/Vertamedia/chproxy) | 用于ClickHouse数据库的HTTP代理.
+ ![GitHub stars](https://img.shields.io/github/stars/nikepan/clickhouse-bulk.svg?style=plastic&label=Stars) | [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) | 收集小实例并向ClickHouse服务器发送大请求.
+ ![GitHub stars](https://img.shields.io/github/stars/siddontang/go-mysql.svg?style=plastic&label=Stars) | [go-mysql](https://github.com/siddontang/go-mysql) | Go工具集，处理MySQL协议和复制.
+ ![GitHub stars](https://img.shields.io/github/stars/siddontang/go-mysql-elasticsearch.svg?style=plastic&label=Stars) | [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) | 自动将MySQL数据同步到Elasticsearch中.
+ ![GitHub stars](https://img.shields.io/github/stars/flike/kingshard.svg?style=plastic&label=Stars) | [kingshard](https://github.com/flike/kingshard) | Golang提供的MySQL的高性能代理.
+ ![GitHub stars](https://img.shields.io/github/stars/2tvenom/myreplication.svg?style=plastic&label=Stars) | [myreplication](https://github.com/2tvenom/myreplication) | MySQL二进制日志复制侦听器.支持语句和行的复制.
+ ![GitHub stars](https://img.shields.io/github/stars/github/orchestrator.svg?style=plastic&label=Stars) | [orchestrator](https://github.com/github/orchestrator) | MySQL复制拓扑管理器和可视化工具.
+ ![GitHub stars](https://img.shields.io/github/stars/sosedoff/pgweb.svg?style=plastic&label=Stars) | [pgweb](https://github.com/sosedoff/pgweb) | 基于Web的PostgreSQL数据库浏览.
+ ![GitHub stars](https://img.shields.io/github/stars/hexdigest/prep.svg?style=plastic&label=Stars) | [prep](https://github.com/hexdigest/prep) | 使用准备好的SQL语句,而不必更改代码.
+ ![GitHub stars](https://img.shields.io/github/stars/nuveo/prest.svg?style=plastic&label=Stars) | [pREST](https://github.com/nuveo/prest) | 从任何PostgreSQL数据库提供REST API.
+ ![GitHub stars](https://img.shields.io/github/stars/andizzle/rwdb.svg?style=plastic&label=Stars) | [rwdb](https://github.com/andizzle/rwdb) | 提供多个建立的数据库服务器的读取副本能力.
+ ![GitHub stars](https://img.shields.io/github/stars/youtube/vitess.svg?style=plastic&label=Stars) | [vitess](https://github.com/youtube/vitess) | 提供了便于大规模Web服务的MySQL数据库缩放的服务器和工具.
+</details>
+
+### SQL查询构建器,用于构建和使用SQL的库.
+
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/mgutz/dat.svg?style=plastic&label=Stars) |  [dat](https://github.com/mgutz/dat) | Go Postgres数据访问的工具包.
+![GitHub stars](https://img.shields.io/github/stars/gchaincl/dotsql.svg?style=plastic&label=Stars) |  [Dotsql](https://github.com/gchaincl/dotsql) | Go库,帮助您在一个地方保存SQL文件，并轻松使用它们.
+![GitHub stars](https://img.shields.io/github/stars/didi/gendry.svg?style=plastic&label=Stars) |  [gendry](https://github.com/didi/gendry) | 无痛SQL生成器和强大的数据绑定器.
+![GitHub stars](https://img.shields.io/github/stars/xujiajun/godbal.svg?style=plastic&label=Stars) |  [godbal](https://github.com/xujiajun/godbal) | 数据库抽象层(dbal).支持SQL 生成器, 并轻松获取结果.
+![GitHub stars](https://img.shields.io/github/stars/doug-martin/goqu.svg?style=plastic&label=Stars) |  [goqu](https://github.com/doug-martin/goqu) | 惯用的SQL生成器和查询库.
+![GitHub stars](https://img.shields.io/github/stars/galeone/igor.svg?style=plastic&label=Stars) |  [igor](https://github.com/galeone/igor) | PostgreSQL抽象层,它支持高级功能。并使用类form的语法.
+![GitHub stars](https://img.shields.io/github/stars/pupizoid/ormlite.svg?style=plastic&label=Stars) |  [ormlite](https://github.com/pupizoid/ormlite) | 轻量级包,包含一些类似于ORM的特性和SQLite数据库的帮助器.
+![GitHub stars](https://img.shields.io/github/stars/go-ozzo/ozzo-dbx.svg?style=plastic&label=Stars) |  [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) | 强大的数据检索方法以及任意DB的查询构建能力.
+![GitHub stars](https://img.shields.io/github/stars/variadico/scaneo.svg?style=plastic&label=Stars) |  [scaneo](https://github.com/variadico/scaneo) | 生成Go代码,将数据库行转换为任意结构.
+![GitHub stars](https://img.shields.io/github/stars/elgris/sqrl.svg?style=plastic&label=Stars) |  [sqrl](https://github.com/elgris/sqrl) | SQL查询生成器,具有改进性能的松鼠叉.
+![GitHub stars](https://img.shields.io/github/stars/Masterminds/squirrel.svg?style=plastic&label=Stars) |  [Squirrel](https://github.com/Masterminds/squirrel) | 帮助您构建SQL查询的Go库.
+![GitHub stars](https://img.shields.io/github/stars/knq/xo.svg?style=plastic&label=Stars) |  [xo](https://github.com/knq/xo) | 基于现有的模式定义。或支持PostgreSQL、MySQL、SQLite、Oracle和Microsoft SQL Server的自定义查询，为数据库生成常用的Go代码.
+</details>
 
 ## 数据库驱动程序
 
@@ -1242,7 +1269,7 @@ stars | name | desc
 -   [passlib](https://github.com/hlandau/passlib) | 未来防伪密码哈希库.
 -   [secure](https://github.com/unrolled/secure) |  HTO中间件的Go,这有助于一些快速安全获胜.
 -   [simple-scrypt](https://github.com/elithrar/simple-scrypt) | 具有简单、明显的API和内置的自动成本校准的ScRyPT包.
--   [ssh-vault](https://github.com/ssh-vault/ssh-vault)使用SSH密钥加密/解密.
+-   [ssh-vault](https://github.com/ssh-vault/ssh-vault)使用SSH键加密/解密.
 
 ## 序列化
 
@@ -1270,7 +1297,7 @@ stars | name | desc
 -   [consul](https://www.consul.io/)领事是一种服务发现、监控和配置的工具.
 -   [devd](https://github.com/cortesi/devd) | 为开发人员提供原生Web服务器.
 -   [discovery](https://github.com/Bilibili/discovery) | 弹性中间层负载平衡和故障转移的注册表.
--   [etcd](https://github.com/coreos/etcd) | 用于共享配置和服务发现的高度可用的密钥值存储.
+-   [etcd](https://github.com/coreos/etcd) | 用于共享配置和服务发现的高度可用的键值存储.
 -   [Fider](https://github.com/getfider/fider) |  Fider是一个开放的平台来收集和组织客户反馈.
 -   [Flagr](https://github.com/checkr/flagr) |  Flagr是一个开放源码的功能标记和A/B测试服务.
 -   [jackal](https://github.com/ortuman/jackal) | 用Go编写的XMPP服务器.
@@ -1897,7 +1924,7 @@ stars | name | desc
 -   [s3gof3r](https://github.com/rlmcpherson/s3gof3r) | 小型实用程序/库,用于高速传输大型对象到Amazon S3.
 -   [Scaleway-cli](https://github.com/scaleway/scaleway-cli) | 从命令行管理BeReMever服务器(与Docker一样容易).
 -   [sg](https://github.com/ChristopherRabotin/sg) | 对一组HTTP端点(如ab)进行基准测试,有可能根据先前的响应在每次调用之间使用响应代码和数据来应对特定的服务器压力.
--   [skm](https://github.com/TimothyYe/skm)SKM是一个简单而强大的SSH密钥管理器,它可以帮助您轻松地管理多个SSH密钥.
+-   [skm](https://github.com/TimothyYe/skm)SKM是一个简单而强大的SSH键管理器,它可以帮助您轻松地管理多个SSH键.
 -   [StatusOK](https://github.com/sanathp/statusok) | 监视您的网站和RESTAPI.在服务器停机或响应时间超过预期时,通过Slack、电子邮件获得通知.
 -   [traefik](https://github.com/containous/traefik) | 反向代理和负载平衡器,支持多个后端.
 -   [Vegeta](https://github.com/tsenart/vegeta) |  HTTP负载测试工具和库.超过9000!
