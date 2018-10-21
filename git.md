@@ -1,14 +1,3 @@
-![GitHub stars](https://img.shields.io/github/stars/leekchan/accounting.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/shopspring/decimal.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/FlashBoys/go-finance.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/alpeb/go-finance.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/rhymond/go-money.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/aclindsa/ofxgo.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/sdcoffey/techan.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/claygod/transaction.svg?style=plastic&label=Stars)
-![GitHub stars](https://img.shields.io/github/stars/dannyvankooten/vat.svg?style=plastic&label=Stars)
-
-
 ![GitHub stars](https://img.shields.io/github/stars/robfig/bind.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/mholt/binding.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/leebenson/conform.svg?style=plastic&label=Stars)
@@ -17,6 +6,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/albrow/forms.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/gorilla/csrf.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/justinas/nosurf.svg?style=plastic&label=Stars)
+
 ![GitHub stars](https://img.shields.io/github/stars/azul3d/engine.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/hajimehoshi/ebiten.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/EngoEngine/engo.svg?style=plastic&label=Stars)
