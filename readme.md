@@ -69,11 +69,11 @@
   - [x] [数据结构](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
   - [x] [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
   - [x] [数据库驱动程序](#%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F)
-  - [日期和时间](#%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4)
-  - [分布式系统](#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F)
-  - [电子邮件](#%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6)
-  - [可嵌入脚本语言](#%E5%8F%AF%E5%B5%8C%E5%85%A5%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80)
-  - [文件](#%E6%96%87%E4%BB%B6)
+  - [x] [日期和时间](#%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4)
+  - [x] [分布式系统](#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F)
+  - [x] [电子邮件](#%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6)
+  - [x] [可嵌入脚本语言](#%E5%8F%AF%E5%B5%8C%E5%85%A5%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80)
+  - [x] [文件](#%E6%96%87%E4%BB%B6)
   - [金融](#%E9%87%91%E8%9E%8D)
   - [表单Form](#%E8%A1%A8%E5%8D%95form)
   - [游戏开发](#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91)
@@ -598,111 +598,152 @@ stars | name | desc
 
 *用于处理日期和时间的库.*
 
--   [carbon](https://github.com/uniplaces/carbon) | 简单的时间扩展与许多UTIL方法,从PHP碳库移植.
--   [date](https://github.com/rickb777/date) | 增加使用日期、日期范围、时间跨度、周期和时间的时间.
--   [dateparse](https://github.com/araddon/dateparse) | 解析日期不预先知道格式.
--   [durafmt](https://github.com/hako/durafmt)为Go提供持续时间格式化库.
--   [feiertage](https://github.com/wlbr/feiertage) | 在德国计算公共假日的函数集,包括德国州(Bundl Sund)的专门化.像复活节,圣灵降临节,感恩节…
--   [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) | 波斯(太阳HijRi)日历在Go(GoRANG)中的实现.
--   [go-sunrise](https://github.com/nathan-osman/go-sunrise)计算给定位置的日出和日落时间.
--   [goweek](https://github.com/grsmv/goweek)图书馆在GoRANG中与周实体一起工作.
--   [Kair](https://github.com/GuilhermeCaruso/Kair) | 日期和时间-戈朗格式化库.
--   [now](https://github.com/jinzhu/now)现在是戈朗的时间工具包.
--   [NullTime](https://github.com/kirillDanshin/nulltime)可空的`time.Time`.
--   [strftime](https://github.com/awoodbeck/strftime) | C99兼容的STRFTIMER格式化程序.
--   [timespan](https://github.com/SaidinWoT/timespan) | 与时间间隔交流,定义为开始时间和持续时间.
--   [timeutil](https://github.com/leekchan/timeutil) | 有用的扩展(TimeDelad,StfTimes,…)到Galang'的时间包.
--   [tuesday](https://github.com/osteele/tuesday)Ruby兼容的StfTime函数.
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/uniplaces/carbon.svg?style=plastic&label=Stars) | [carbon](https://github.com/uniplaces/carbon) | 简单的时间扩展与许多工具方法,从PHP Carbon库移植.
+![GitHub stars](https://img.shields.io/github/stars/rickb777/date.svg?style=plastic&label=Stars) | [date](https://github.com/rickb777/date) | 增加使用日期、日期范围、时间跨度、周期和一天的时间.
+![GitHub stars](https://img.shields.io/github/stars/araddon/dateparse.svg?style=plastic&label=Stars) | [dateparse](https://github.com/araddon/dateparse) | 解析日期, 不需要知道格式.
+![GitHub stars](https://img.shields.io/github/stars/hako/durafmt.svg?style=plastic&label=Stars) | [durafmt](https://github.com/hako/durafmt) | 为Go提供时间长度格式化库.
+![GitHub stars](https://img.shields.io/github/stars/wlbr/feiertage.svg?style=plastic&label=Stars) | [feiertage](https://github.com/wlbr/feiertage) | 在德国计算公共假日的函数集,专用于德国州(Bundesländer).像复活节,圣灵降临节,感恩节…
+![GitHub stars](https://img.shields.io/github/stars/yaa110/go-persian-calendar.svg?style=plastic&label=Stars) | [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) | 波斯(Solar Hijri)日历实现.
+![GitHub stars](https://img.shields.io/github/stars/nathan-osman/go-sunrise.svg?style=plastic&label=Stars) | [go-sunrise](https://github.com/nathan-osman/go-sunrise) | 计算给定位置的日出和日落时间.
+![GitHub stars](https://img.shields.io/github/stars/grsmv/goweek.svg?style=plastic&label=Stars) | [goweek](https://github.com/grsmv/goweek) | 与周数一起工作.
+![GitHub stars](https://img.shields.io/github/stars/GuilhermeCaruso/Kair.svg?style=plastic&label=Stars) | [Kair](https://github.com/GuilhermeCaruso/Kair) | 日期和时间-Golang格式化库.
+![GitHub stars](https://img.shields.io/github/stars/jinzhu/now.svg?style=plastic&label=Stars) | [now](https://github.com/jinzhu/now) | Golang的时间工具包.
+![GitHub stars](https://img.shields.io/github/stars/kirillDanshin/nulltime.svg?style=plastic&label=Stars) | [NullTime](https://github.com/kirillDanshin/nulltime) | 可空的`time.Time`.
+![GitHub stars](https://img.shields.io/github/stars/awoodbeck/strftime.svg?style=plastic&label=Stars) | [strftime](https://github.com/awoodbeck/strftime) | 与C99兼容的strftime格式化程序.
+![GitHub stars](https://img.shields.io/github/stars/SaidinWoT/timespan.svg?style=plastic&label=Stars) | [timespan](https://github.com/SaidinWoT/timespan) | 与时间间隔交流,定义为开始时间和持续时间.
+![GitHub stars](https://img.shields.io/github/stars/leekchan/timeutil.svg?style=plastic&label=Stars) | [timeutil](https://github.com/leekchan/timeutil) | Galang'的time包有用的扩展(TimeDelad,StfTimes,…)
+![GitHub stars](https://img.shields.io/github/stars/osteele/tuesday.svg?style=plastic&label=Stars) | [tuesday](https://github.com/osteele/tuesday) | Ruby兼容的StfTime函数.
+</details>
 
 ## 分布式系统
 
 *有助于构建分布式系统的包.*
 
--   [celeriac](https://github.com/svcavallar/celeriac.v1) | 图书馆增加支持互动和监测芹菜工人,任务和事件在Go.
--   [consistent](https://github.com/buraksezer/consistent) | 有界负载的一致散列.
--   [digota](https://github.com/digota/digota)GRPC电子商务微服务.
--   [drmaa](https://github.com/dgruber/drmaa) | 基于DRMAA标准的集群调度程序的作业提交库.
--   [emitter-io](https://github.com/emitter-io/emitter) | 使用MQTT、WebSoCKET和Lead构建的高性能、分布式、安全和低延时的发布订阅平台.
--   [flowgraph](https://github.com/vectaport/flowgraph)MPI风格准备发送协调层.
--   [gleam](https://github.com/chrislusf/gleam) | 用纯Go和Luajit编写的快速和可扩展的分布式map/reduce系统,结合Go的高并发性和Luajit的高性能,独立运行或分布式运行.
--   [glow](https://github.com/chrislusf/glow) | 易于使用的可扩展的分布式大数据处理,MAP还原,DAG执行,全部在纯Go中.
--   [go-health](https://github.com/InVisionApp/go-health) | 用于启用服务中异步依赖性健康检查的库.
--   [go-jump](https://github.com/dgryski/go-jump) | 谷歌的"跳转"一致哈希函数端口.
--   [go-kit](https://github.com/go-kit/kit) | 支持服务发现、负载平衡、可插拔传输、请求跟踪等的微服务工具包.
--   [gorpc](https://github.com/valyala/gorpc) | 简单、快速、可扩展的高负载RPC库.
--   [grpc-go](https://github.com/grpc/grpc-go)GRPC的Go语言实现.基于HTTP/2的RPC.
--   [heimdall](https://github.com/gojektech/heimdall) | 具有重试和HyScript功能的增强型HTTP客户端.
--   [hprose](https://github.com/hprose/hprose-golang) | 非常新奇的RPC库,支持25种语言.
--   [jaeger](https://github.com/jaegertracing/jaeger) | 分布式跟踪系统.
--   [jsonrpc](https://github.com/osamingo/jsonrpc)JSONRPC包有助于实现JSON-RPC 2.
--   [jsonrpc](https://github.com/ybbus/jsonrpc)JSON-RPC 2 HTTP客户端实现.
--   [KrakenD](https://github.com/devopsfaith/krakend)超性能API中间件框架.
--   [micro](https://github.com/micro/micro)可插拔微服务工具箱和分布式系统平台.
--   [NATS](https://github.com/nats-io/gnatsd) | 轻量级、高性能的微服务、IoT和云原生系统的消息传递系统.
--   [raft](https://github.com/hashicorp/raft) |  Golang实施RAFT共识议定书,由Hasigordp.
--   [raft](https://github.com/coreos/etcd/tree/master/raft) | 通过CAREOS实施RAFT共识协议.
--   [redis-lock](https://github.com/bsm/redis-lock) | 使用RIDIS简化分布式锁的实现.
--   [ringpop-go](https://github.com/uber/ringpop-go)Go应用程序的可扩展、容错应用层共享.
--   [rpcx](https://github.com/smallnest/rpcx) | 分布式可插拔RPC服务框架,如阿里巴巴DubBo.
--   [sleuth](https://github.com/ursiform/sleuth)无主机P2P自动发现库和HTTP服务之间的RPC(使用)[ZeroMQ](https://github.com/zeromq/libzmq))
--   [tendermint](https://github.com/tendermint/tendermint) | 高性能中间件,用于使用Tendermint协商一致和块链协议将用任何编程语言编写的状态机转换为Byzantine Fault.t复制状态机.
--   [torrent](https://github.com/anacrolix/torrent)BitTorrent客户端软件包.
-    -   [dht](https://godoc.org/github.com/anacrolix/dht)BitTorrent KdimLi DHT实现.
-    -   [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix)视频流激流客户端.
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/svcavallar/celeriac.v1.svg?style=plastic&label=Stars) | [celeriac](https://github.com/svcavallar/celeriac.v1) | 增加支持互动和监测Celery工人,任务和事件.
+![GitHub stars](https://img.shields.io/github/stars/buraksezer/consistent.svg?style=plastic&label=Stars) | [consistent](https://github.com/buraksezer/consistent) | 有限负载的一致散列.
+![GitHub stars](https://img.shields.io/github/stars/digota/digota.svg?style=plastic&label=Stars) | [digota](https://github.com/digota/digota) | grpc电子商务微服务.
+![GitHub stars](https://img.shields.io/github/stars/dgruber/drmaa.svg?style=plastic&label=Stars) | [drmaa](https://github.com/dgruber/drmaa) | 基于DRMAA标准的集群调度程序的作业提交库.
+![GitHub stars](https://img.shields.io/github/stars/emitter-io/emitter.svg?style=plastic&label=Stars) | [emitter-io](https://github.com/emitter-io/emitter) | 使用MQTT、Websockets和love构建的高性能、分布式、安全和低延时的发布订阅平台.
+![GitHub stars](https://img.shields.io/github/stars/vectaport/flowgraph.svg?style=plastic&label=Stars) | [flowgraph](https://github.com/vectaport/flowgraph) | MPI风格，准备发送，协调层.
+![GitHub stars](https://img.shields.io/github/stars/chrislusf/gleam.svg?style=plastic&label=Stars) | [gleam](https://github.com/chrislusf/gleam) | 用纯Go和Luajit编写的快速和可扩展的分布式map/reduce系统,结合Go的高并发性和Luajit的高性能,独立运行或分布式运行.
+![GitHub stars](https://img.shields.io/github/stars/chrislusf/glow.svg?style=plastic&label=Stars) | [glow](https://github.com/chrislusf/glow) | 易于使用的可扩展的分布式大数据处理,Map-还原,DAG执行,全部纯Go.
+![GitHub stars](https://img.shields.io/github/stars/InVisionApp/go-health.svg?style=plastic&label=Stars) | [go-health](https://github.com/InVisionApp/go-health) | 用于启用服务, 对异步的依赖的健康检查库.
+![GitHub stars](https://img.shields.io/github/stars/dgryski/go-jump.svg?style=plastic&label=Stars) | [go-jump](https://github.com/dgryski/go-jump) | 谷歌的"Jump"的端口一致,哈希函数.
+![GitHub stars](https://img.shields.io/github/stars/go-kit/kit.svg?style=plastic&label=Stars) | [go-kit](https://github.com/go-kit/kit) | 支持服务发现、负载平衡、可插拔传输、请求跟踪等的微服务工具包.
+![GitHub stars](https://img.shields.io/github/stars/valyala/gorpc.svg?style=plastic&label=Stars) | [gorpc](https://github.com/valyala/gorpc) | 简单、快速、可扩展的高负载RPC库.
+![GitHub stars](https://img.shields.io/github/stars/grpc/grpc-go.svg?style=plastic&label=Stars) | [grpc-go](https://github.com/grpc/grpc-go) | grpc的Go语言实现.基于HTTP/2的RPC.
+![GitHub stars](https://img.shields.io/github/stars/gojektech/heimdall.svg?style=plastic&label=Stars) | [heimdall](https://github.com/gojektech/heimdall) | 具有重试和hystrix功能的增强型HTTP客户端.
+![GitHub stars](https://img.shields.io/github/stars/hprose/hprose-golang.svg?style=plastic&label=Stars) | [hprose](https://github.com/hprose/hprose-golang) | 非常新奇的RPC库, 支持25种语言.
+![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger.svg?style=plastic&label=Stars) | [jaeger](https://github.com/jaegertracing/jaeger) | 分布式跟踪系统.
+![GitHub stars](https://img.shields.io/github/stars/osamingo/jsonrpc.svg?style=plastic&label=Stars) | [jsonrpc](https://github.com/osamingo/jsonrpc) | 有助于实现JSON-RPC 2.
+![GitHub stars](https://img.shields.io/github/stars/ybbus/jsonrpc.svg?style=plastic&label=Stars) | [jsonrpc](https://github.com/ybbus/jsonrpc) | JSON-RPC 2 HTTP客户端实现.
+![GitHub stars](https://img.shields.io/github/stars/devopsfaith/krakend.svg?style=plastic&label=Stars) | [KrakenD](https://github.com/devopsfaith/krakend) | 超性能API中间件框架.
+![GitHub stars](https://img.shields.io/github/stars/micro/micro.svg?style=plastic&label=Stars) | [micro](https://github.com/micro/micro) | 可插拔微服务工具箱和分布式系统平台.
+![GitHub stars](https://img.shields.io/github/stars/nats-io/gnatsd.svg?style=plastic&label=Stars) | [NATS](https://github.com/nats-io/gnatsd) | 轻量级、高性能的微服务、IoT和云原生系统的消息传递系统.
+![GitHub stars](https://img.shields.io/github/stars/hashicorp/raft.svg?style=plastic&label=Stars) | [raft](https://github.com/hashicorp/raft) |  Golang实现Raft共识议定书,来自HashiCorp.
+![GitHub stars](https://img.shields.io/github/stars/coreos/etcd.svg?style=plastic&label=Stars) | [raft](https://github.com/coreos/etcd/tree/master/raft) | 实现Raft共识协议, 来自CoreOS.
+![GitHub stars](https://img.shields.io/github/stars/bsm/redis-lock.svg?style=plastic&label=Stars) | [redis-lock](https://github.com/bsm/redis-lock) | 使用Redis简化分布式锁的实现.
+![GitHub stars](https://img.shields.io/github/stars/uber/ringpop-go.svg?style=plastic&label=Stars) | [ringpop-go](https://github.com/uber/ringpop-go) | Go应用程序的可扩展、容错应用层共享.
+![GitHub stars](https://img.shields.io/github/stars/smallnest/rpcx.svg?style=plastic&label=Stars) | [rpcx](https://github.com/smallnest/rpcx) | 分布式可插拔RPC服务框架,如阿里巴巴Dubbo.
+![GitHub stars](https://img.shields.io/github/stars/ursiform/sleuth.svg?style=plastic&label=Stars) | [sleuth](https://github.com/ursiform/sleuth) | 无主机P2P自动发现库，和HTTP服务之间的RPC(使用[ZeroMQ](https://github.com/zeromq/libzmq))
+![GitHub stars](https://img.shields.io/github/stars/tendermint/tendermint.svg?style=plastic&label=Stars) | [tendermint](https://github.com/tendermint/tendermint) | 高性能中间件, 通过使用Tendermint协商一致,和区块链协议, 将任何编程语言编写的状态机转换为Byzantine Fault Tolerant复制状态机.
+![GitHub stars](https://img.shields.io/github/stars/anacrolix/torrent.svg?style=plastic&label=Stars) | [torrent](https://github.com/anacrolix/torrent) | BitTorrent客户端软件包.
+![GitHub stars](https://img.shields.io/github/stars/anacrolix/dht.svg?style=plastic&label=Stars) | [dht](https://godoc.org/github.com/anacrolix/dht) | BitTorrent Kademlia DHT实现.
+![GitHub stars](https://img.shields.io/github/stars/Sioro-Neoku/go-peerflix.svg?style=plastic&label=Stars) | [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) | 视频流 torrent 客户端.
+</details>
 
 ## 电子邮件
 
 *实现电子邮件创建和发送的库和工具.*
 
--   [chasquid](https://blitiri.com.ar/p/chasquid)SMTP服务器写在Go中.
--   [douceur](https://github.com/aymerick/douceur) |  CSS内联为您的HTML电子邮件.
--   [email](https://github.com/jordan-wright/email) | 一个健壮灵活的Go电子邮件库.
--   [go-dkim](https://github.com/toorop/go-dkim) |  DKIM图书馆,签署和验证电子邮件.
--   [go-imap](https://github.com/emersion/go-imap) | 用于客户端和服务器的IMAP库.
--   [go-message](https://github.com/emersion/go-message) | 用于因特网消息格式和邮件消息的流式库.
--   [Gomail](https://github.com/go-gomail/gomail/) |  Gomail是一个非常简单和强大的发送电子邮件的软件包.
--   [Hectane](https://github.com/hectane/hectane) | 轻量级SMTP客户端提供HTTP API.
--   [hermes](https://github.com/matcornic/hermes) |  Golang包产生干净,响应性的HTML电子邮件.
--   [MailHog](https://github.com/mailhog/MailHog)用Web和API接口进行电子邮件和SMTP测试.
--   [SendGrid](https://github.com/sendgrid/sendgrid-go)sEdGrand的Go库用于发送电子邮件.
--   [smtp](https://github.com/mailhog/smtp)SMTP服务器协议状态机.
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/albertito/chasquid.svg?style=plastic&label=Stars) | [chasquid](https://blitiri.com.ar/p/chasquid) | SMTP服务器.
+![GitHub stars](https://img.shields.io/github/stars/aymerick/douceur.svg?style=plastic&label=Stars) | [douceur](https://github.com/aymerick/douceur) |  为您的HTML电子邮件搞搞CSS内联.
+![GitHub stars](https://img.shields.io/github/stars/jordan-wright/email.svg?style=plastic&label=Stars) | [email](https://github.com/jordan-wright/email) | 一个健壮灵活的Go电子邮件库.
+![GitHub stars](https://img.shields.io/github/stars/toorop/go-dkim.svg?style=plastic&label=Stars) | [go-dkim](https://github.com/toorop/go-dkim) |  DKIM图书馆,签署和验证电子邮件.
+![GitHub stars](https://img.shields.io/github/stars/emersion/go-imap.svg?style=plastic&label=Stars) | [go-imap](https://github.com/emersion/go-imap) | 用于客户端和服务器的IMAP库.
+![GitHub stars](https://img.shields.io/github/stars/emersion/go-message.svg?style=plastic&label=Stars) | [go-message](https://github.com/emersion/go-message) | 用于因特网消息格式和邮件消息的Stream库.
+![GitHub stars](https://img.shields.io/github/stars/go-gomail/gomail.svg?style=plastic&label=Stars) | [Gomail](https://github.com/go-gomail/gomail/) |  一个非常简单和强大的发送电子邮件的软件包.
+![GitHub stars](https://img.shields.io/github/stars/hectane/hectane.svg?style=plastic&label=Stars) | [Hectane](https://github.com/hectane/hectane) | 轻量级SMTP客户端，提供HTTP API.
+![GitHub stars](https://img.shields.io/github/stars/matcornic/hermes.svg?style=plastic&label=Stars) | [hermes](https://github.com/matcornic/hermes) |  用Golang包, 产生干净,响应性的HTML电子邮件.
+![GitHub stars](https://img.shields.io/github/stars/mailhog/MailHog.svg?style=plastic&label=Stars) | [MailHog](https://github.com/mailhog/MailHog) | 用web和API接口进行电子邮件和SMTP测试.
+![GitHub stars](https://img.shields.io/github/stars/sendgrid/sendgrid-go.svg?style=plastic&label=Stars) | [SendGrid](https://github.com/sendgrid/sendgrid-go)| SendGrid的Go库，用于发送电子邮件.
+![GitHub stars](https://img.shields.io/github/stars/mailhog/smtp.svg?style=plastic&label=Stars) | [smtp](https://github.com/mailhog/smtp) | SMTP服务器协议状态机.
+</details>
 
 ## 可嵌入脚本语言
 
 *在Go代码中嵌入其他语言.*
 
--   [agora](https://github.com/PuerkitoBio/agora) | 动态的,可嵌入的编程语言在Go中.
--   [anko](https://github.com/mattn/anko) | 写在Go中的脚本解释器.
--   [binder](https://github.com/alexeyco/binder) | 去Lua绑定库,基于[gopher-lua](https://github.com/yuin/gopher-lua).
--   [expr](https://github.com/antonmedv/expr) | 一个可以评估表达式的引擎.
--   [gisp](https://github.com/jcla1/gisp) | 简单的LISP中的Go.
--   [go-duktape](https://github.com/olebedev/go-duktape)DoK磁带JavaScript引擎绑定的Go.
--   [go-lua](https://github.com/Shopify/go-lua) |  LUA 5.2 VM端口到纯Go.
--   [go-php](https://github.com/deuill/go-php)PHO绑定为Go.
--   [go-python](https://github.com/sbinet/go-python) | 对Cython C-API进行天真的Go绑定.
--   [golua](https://github.com/aarzilli/golua) | 为LUA C API进行绑定.
--   [gopher-lua](https://github.com/yuin/gopher-lua) |  LUA 5.1 VM和编译器写在Go中.
--   [ngaro](https://github.com/db47h/ngaro) | 可嵌入的nGARO-VM实现,使脚本能够在复古中运行.
--   [otto](https://github.com/robertkrimen/otto)JAVA脚本解释器,写在Go中.
--   [purl](https://github.com/ian-kent/purl)Perl 5.18.2嵌入到Go中.
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/PuerkitoBio/agora.svg?style=plastic&label=Stars) | [agora](https://github.com/PuerkitoBio/agora) | 动态类型,可嵌入的编程语言,在Go中.
+![GitHub stars](https://img.shields.io/github/stars/mattn/anko.svg?style=plastic&label=Stars) | [anko](https://github.com/mattn/anko) | 写在Go中的脚本解释器.
+![GitHub stars](https://img.shields.io/github/stars/alexeyco/binder.svg?style=plastic&label=Stars) | [binder](https://github.com/alexeyco/binder) | Lua绑定库,基于[gopher-lua](https://github.com/yuin/gopher-lua).
+![GitHub stars](https://img.shields.io/github/stars/antonmedv/expr.svg?style=plastic&label=Stars) | [expr](https://github.com/antonmedv/expr) | 一个可以评估表达式的引擎.
+![GitHub stars](https://img.shields.io/github/stars/jcla1/gisp.svg?style=plastic&label=Stars) | [gisp](https://github.com/jcla1/gisp) | 简单的Lisp中的Go.
+![GitHub stars](https://img.shields.io/github/stars/olebedev/go-duktape.svg?style=plastic&label=Stars) | [go-duktape](https://github.com/olebedev/go-duktape) | Duktape JavaScript引擎绑定Go.
+![GitHub stars](https://img.shields.io/github/stars/Shopify/go-lua.svg?style=plastic&label=Stars) | [go-lua](https://github.com/Shopify/go-lua) |  Lua 5.2 VM 的纯Go端口。
+![GitHub stars](https://img.shields.io/github/stars/deuill/go-php.svg?style=plastic&label=Stars) | [go-php](https://github.com/deuill/go-php) | PHP绑定Go.
+![GitHub stars](https://img.shields.io/github/stars/sbinet/go-python.svg?style=plastic&label=Stars) | [go-python](https://github.com/sbinet/go-python) | 对Cython C-API进行原生Go绑定.
+![GitHub stars](https://img.shields.io/github/stars/aarzilli/golua.svg?style=plastic&label=Stars) | [golua](https://github.com/aarzilli/golua) | 为Lua C API进行Go绑定.
+![GitHub stars](https://img.shields.io/github/stars/yuin/gopher-lua.svg?style=plastic&label=Stars) | [gopher-lua](https://github.com/yuin/gopher-lua) |  Lua 5.1 VM和编译器写在Go中.
+![GitHub stars](https://img.shields.io/github/stars/db47h/ngaro.svg?style=plastic&label=Stars) | [ngaro](https://github.com/db47h/ngaro) | 可嵌入的Ngaro VM实现,使脚本能够在Retro运行.
+![GitHub stars](https://img.shields.io/github/stars/robertkrimen/otto.svg?style=plastic&label=Stars) | [otto](https://github.com/robertkrimen/otto) | JAVA脚本解释器,写在Go中.
+![GitHub stars](https://img.shields.io/github/stars/ian-kent/purl.svg?style=plastic&label=Stars) | [purl](https://github.com/ian-kent/purl) | Perl 5.18.2嵌入到Go中.
+</details>
 
 ## 文件
 
 *用于处理文件和文件系统的库.*
 
--   [afero](https://github.com/spf13/afero)Go文件系统抽象系统.
--   [go-csv-tag](https://github.com/artonge/go-csv-tag)使用标签加载CSV文件.
--   [go-gtfs](https://github.com/artonge/go-gtfs)在Go中加载GTFS文件.
--   [notify](https://github.com/rjeczalik/notify) | 文件系统事件通知库,具有简单的API,类似于操作系统/信号.
--   [pdfcpu](https://github.com/hhrutter/pdfcpu) |  PDF处理器.
--   [skywalker](https://github.com/dixonwille/skywalker) | 包允许一个同时轻松地通过文件系统.
--   [tarfs](https://github.com/posener/tarfs) | 实现[`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem)焦油档案.
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+![GitHub stars](https://img.shields.io/github/stars/spf13/afero.svg?style=plastic&label=Stars) | [afero](https://github.com/spf13/afero) | 文件抽象系统.
+![GitHub stars](https://img.shields.io/github/stars/artonge/go-csv-tag.svg?style=plastic&label=Stars) | [go-csv-tag](https://github.com/artonge/go-csv-tag) | 使用标签加载CSV文件.
+![GitHub stars](https://img.shields.io/github/stars/artonge/go-gtfs.svg?style=plastic&label=Stars) | [go-gtfs](https://github.com/artonge/go-gtfs) | 在Go中加载gtfs文件.
+![GitHub stars](https://img.shields.io/github/stars/rjeczalik/notify.svg?style=plastic&label=Stars) | [notify](https://github.com/rjeczalik/notify) | 文件系统事件通知库,具有简单的API,类似于操作系统/信号.
+![GitHub stars](https://img.shields.io/github/stars/hhrutter/pdfcpu.svg?style=plastic&label=Stars) | [pdfcpu](https://github.com/hhrutter/pdfcpu) |  PDF处理器.
+![GitHub stars](https://img.shields.io/github/stars/dixonwille/skywalker.svg?style=plastic&label=Stars) | [skywalker](https://github.com/dixonwille/skywalker) | 一个允许同时轻松地通过文件系统的包.
+![GitHub stars](https://img.shields.io/github/stars/posener/tarfs.svg?style=plastic&label=Stars) | [tarfs](https://github.com/posener/tarfs) | 实现[`FileSystem` 接口](https://godoc.org/github.com/kr/fs#FileSystem)焦油档案.
+</details>
 
 ## 金融
 
 *会计和财务套餐.*
 
--   [accounting](https://github.com/leekchan/accounting) | 戈朗货币和货币格式化.
+<details>
+
+<summary> :point_down: 下拉 </summary>
+
+stars | name | desc
+---|---|---
+-   [accounting](https://github.com/leekchan/accounting) | Golang货币和货币格式化.
 -   [decimal](https://github.com/shopspring/decimal) | 任意精度的定点小数.
 -   [go-finance](https://github.com/FlashBoys/go-finance) | 综合金融市场数据.
 -   [go-finance](https://github.com/alpeb/go-finance) | 用于货币时间价值(年金)、现金流量、利率转换、债券和折旧计算的财务功能库.
@@ -711,6 +752,7 @@ stars | name | desc
 -   [techan](https://github.com/sdcoffey/techan) | 技术分析库,具有先进的市场分析和交易策略.
 -   [transaction](https://github.com/claygod/transaction) | 以多线程模式运行的帐户的嵌入式事务数据库.
 -   [vat](https://github.com/dannyvankooten/vat)增值税数量验证和欧盟增值税税率.
+</details>
 
 ## 表单Form
 
@@ -788,7 +830,7 @@ stars | name | desc
 *与Goroutines（go类型线程）一起工作和管理工具.*
 
 -   [async](https://github.com/studiosol/async) | 一种安全的方法来异步执行函数,在惊慌的情况下恢复它们.
--   [cyclicbarrier](https://github.com/marusama/cyclicbarrier) | 戈朗的循环障碍.
+-   [cyclicbarrier](https://github.com/marusama/cyclicbarrier) | Golang的循环障碍.
 -   [go-floc](https://github.com/workanator/go-floc) | 精心安排好课程.
 -   [go-flow](https://github.com/kamildrazkiewicz/go-flow) | 控制GoRDOTIN执行顺序.
 -   [go-trylock](https://github.com/subchen/go-trylock) | 对Golang的读写锁的TyLink支持.
@@ -1017,7 +1059,7 @@ stars | name | desc
 -   [base64Captcha](https://github.com/mojocn/base64Captcha)BASIC 64 CAPTCH支持数字,数字,字母,算术,音频和数字字母CATCTHA.
 -   [battery](https://github.com/distatus/battery)跨平台、标准化的电池信息库.
 -   [bitio](https://github.com/icza/bitio) | 高度优化的位级读写器为Go.
--   [browscap_go](https://github.com/digitalcrab/browscap_go)戈朗图书馆[Browser Capabilities Project](http://browscap.org/).
+-   [browscap_go](https://github.com/digitalcrab/browscap_go)Golang图书馆[Browser Capabilities Project](http://browscap.org/).
 -   [captcha](https://github.com/steambap/captcha) | 封装CAPTCHA提供了一个易于使用的、不固执己见的API用于CAPTCHA生成.
 -   [conv](https://github.com/cstockton/go-conv)包CONV提供跨Go类型的快速和直观转换.
 -   [datacounter](https://github.com/miolini/datacounter) | 为读者/写入器/HTTP.RealScript编写计数器.
@@ -1118,7 +1160,7 @@ stars | name | desc
 -   [ether](https://github.com/songgao/ether)跨平台Go包,用于发送和接收以太网帧.
 -   [ethernet](https://github.com/mdlayher/ethernet) | 封装以太网实现IEEE 802.3以太网II帧和IEEE 802.1Q VLAN标签的封送和解除封送.
 -   [fasthttp](https://github.com/valyala/fasthttp)包FasthTTP是Go的一种快速HTTP实现,比NET/HTTP快10倍.
--   [fortio](https://github.com/fortio/fortio)加载测试库和命令行工具,高级回声服务器和Web UI.允许指定每秒加载的设置查询和记录等待时间直方图和其他有用的统计信息并绘制它们.TCP、HTTP、GRPC.
+-   [fortio](https://github.com/fortio/fortio)加载测试库和命令行工具,高级回声服务器和Web UI.允许指定每秒加载的设置查询和记录等待时间直方图和其他有用的统计信息并绘制它们.TCP、HTTP、grpc.
 -   [ftp](https://github.com/jlaffaye/ftp) | 包FTP实现FTP客户端,如[RFC 959](http://tools.ietf.org/html/rfc959).
 -   [gNxI](https://github.com/google/gnxi) | 使用GNMI和GNOI协议的网络管理工具集合.
 -   [go-getter](https://github.com/hashicorp/go-getter) | Go库,用于使用URL下载来自不同来源的文件或目录.
@@ -1255,7 +1297,7 @@ stars | name | desc
 -   [goent](https://github.com/kzahedi/goent)熵测度的实现
 -   [gofrac](https://github.com/anschelsc/gofrac) | (GoStabrabl)分数库,支持基本算法.
 -   [gohistogram](https://github.com/VividCortex/gohistogram) | 数据流的近似直方图.
--   [gonum/mat64](https://github.com/gonum/matrix) | 矩阵计算的通用程序包.包MAT64为FLUAT64矩阵提供基本的线性代数运算.
+-   [gonum/mat64](https://github.com/gonum/matrix) | 矩阵计算的通用程序包.包MAT64为FLuaT64矩阵提供基本的线性代数运算.
 -   [gonum/plot](https://github.com/gonum/plot) |  GunU/Prand提供了一个用于构建和绘制Go图的API.
 -   [goraph](https://github.com/gyuho/goraph) | 纯Go图形理论库(数据结构,算法可视化).
 -   [gosl](https://github.com/cpmech/gosl) | 去线性代数、FFT、几何、NURBS、数值方法、概率、优化、微分方程等的科学图书馆,等等.
@@ -1799,7 +1841,7 @@ stars | name | desc
 -   [httptreemux](https://github.com/dimfeld/httptreemux) | 高速,灵活的基于树的HTTP路由器的Go.来自HTTPROTEL的启示.
 -   [lars](https://github.com/go-playground/lars)是一个轻量级的、快速的、可扩展的零分配HTTP路由器,用于创建可定制的框架.
 -   [medeina](https://github.com/imdario/medeina) |  Medeina是一个HTTP路由树,基于RoopRead,受RDA和古巴的启发.
--   [mux](https://github.com/gorilla/mux) | 强大的URL路由器和调度器为戈朗.
+-   [mux](https://github.com/gorilla/mux) | 强大的URL路由器和调度器为Golang.
 -   [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) | 一种支持正则表达式路由匹配的非常快的Go(GALON)HTTP路由器.完全支持构建RESTORY API.
 -   [pat](https://github.com/bmizerany/pat) | 西纳特拉风格的MUXER为Go的网络/HTTP库,由作者西纳特拉.
 -   [pure](https://github.com/go-playground/pure)是一个轻量级的HTTP路由器,它支持STD"NET/HTTP"实现.
