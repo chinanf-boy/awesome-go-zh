@@ -1,4 +1,4 @@
-![GitHub stars](https://img.shields.io/github/stars/algoGuy/EasyMIDI.svg?style=plastic&label=Stars)
+<!-- ![GitHub stars](https://img.shields.io/github/stars/algoGuy/EasyMIDI.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/eaburns/flac.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/mewkiz/flac.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/Comcast/gaad.svg?style=plastic&label=Stars)
@@ -261,6 +261,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/go-goracle/goracle.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/jackc/pgx.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/lib/pq.svg?style=plastic&label=Stars)
+
 ![GitHub stars](https://img.shields.io/github/stars/aerospike/aerospike-client-go.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/solher/arangolite.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/viant/asc.svg?style=plastic&label=Stars)
@@ -271,11 +272,13 @@
 ![GitHub stars](https://img.shields.io/github/stars/couchbase/go-couchbase.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/fjl/go-couchdb.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/couchbase/gocb.svg?style=plastic&label=Stars)
+
 ![GitHub stars](https://img.shields.io/github/stars/defcronyke/godscache.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/dancannon/gorethink.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/zegl/goriak.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/globalsign/mgo.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/mongodb/mongo-go-driver.svg?style=plastic&label=Stars)
+
 ![GitHub stars](https://img.shields.io/github/stars/cihangir/neo4j.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/davemeehan/Neo4j-Go.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/jmcvetta/neoism.svg?style=plastic&label=Stars)
@@ -284,6 +287,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/hoisie/redis.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/bsm/redeo.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/shomali11/xredis.svg?style=plastic&label=Stars)
+
+
 ![GitHub stars](https://img.shields.io/github/stars/blevesearch/bleve.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/olivere/elastic.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/cch123/elasticsql.svg?style=plastic&label=Stars)
@@ -291,6 +296,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/OwnLocal/goes.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/go-ego/riot.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/seiflotfy/skizze.svg?style=plastic&label=Stars)
+ -->
+
 ![GitHub stars](https://img.shields.io/github/stars/uniplaces/carbon.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/rickb777/date.svg?style=plastic&label=Stars)
 ![GitHub stars](https://img.shields.io/github/stars/araddon/dateparse.svg?style=plastic&label=Stars)
