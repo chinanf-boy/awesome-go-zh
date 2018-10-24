@@ -76,9 +76,9 @@
   - [x] [文件](#%E6%96%87%E4%BB%B6)
   - [x] [金融](#%E9%87%91%E8%9E%8D)
   - [x] [表单Form](#%E8%A1%A8%E5%8D%95form)
-  - [游戏开发](#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91)
-  - [生成与泛型](#%E7%94%9F%E6%88%90%E4%B8%8E%E6%B3%9B%E5%9E%8B)
-  - [地理](#%E5%9C%B0%E7%90%86)
+  - [x] [游戏开发](#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91)
+  - [x] [生成与泛型](#%E7%94%9F%E6%88%90%E4%B8%8E%E6%B3%9B%E5%9E%8B)
+  - [x] [地理](#%E5%9C%B0%E7%90%86)
   - [Go编译器](#go%E7%BC%96%E8%AF%91%E5%99%A8)
   - [go线程](#go%E7%BA%BF%E7%A8%8B)
   - [GUI](#gui)
@@ -784,25 +784,25 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [Azul3D](https://github.com/azul3d/engine) |  3D游戏引擎写在Go上.
--   [Ebiten](https://github.com/hajimehoshi/ebiten) | 死简单的2D游戏库中的Go.
--   [engo](https://github.com/EngoEngine/engo) |  Engo是一个开源的2D游戏引擎,用Go编写.它遵循实体组件系统范例.
--   [g3n](https://github.com/g3n/engine) | 3D游戏引擎.
--   [GarageEngine](https://github.com/vova616/GarageEngine) | 2D游戏引擎编写,在OpenGL上运行.
--   [glop](https://github.com/runningwild/glop) |  Glop(游戏库的权力)是一个相当简单的跨平台游戏库.
--   [go-astar](https://github.com/beefsack/go-astar) | A的实现\*路径搜索算法.
--   [go-collada](https://github.com/GlenKelley/go-collada) | 使用Collada文件格式进行打包.
--   [go-sdl2](https://github.com/veandco/go-sdl2) | 为[Simple DirectMedia Layer](https://www.libsdl.org/).
--   [go3d](https://github.com/ungerik/go3d) | 面向性能的2D/3D数字软件包.
--   [gonet](https://github.com/xtaci/gonet) |  GoRANG实现的游戏服务器骨架.
--   [goworld](https://github.com/xiaonanln/goworld) | 可扩展的游戏服务器引擎,具有空间实体框架和热交换
--   [Leaf](https://github.com/name5566/leaf) | 轻量级游戏服务器框架.
--   [nano](https://github.com/lonnng/nano) | 轻量级、高性能、高性能的Galang-Basic游戏服务器框架
--   [Oak](https://github.com/oakmound/oak) | 纯Go游戏引擎.
--   [Pitaya](https://github.com/topfreegames/pitaya) | 通过C SDK为iOS、Android、Unity等提供集群支持和客户机库的可伸缩游戏服务器框架.
--   [Pixel](https://github.com/faiface/pixel) | 手工制作的2D游戏库.
--   [raylib-go](https://github.com/gen2brain/raylib-go) | 绑定[raylib](http://www.raylib.com/)一个简单而易于使用的图书馆来学习视频游戏编程.
--   [termloop](https://github.com/JoelOtter/termloop)基于终端的游戏引擎Go,构建在TimBox之上.
+![GitHub stars](https://img.shields.io/github/stars/azul3d/engine.svg?style=plastic&label=Stars) | [Azul3D](https://github.com/azul3d/engine) |  3D游戏引擎.
+![GitHub stars](https://img.shields.io/github/stars/hajimehoshi/ebiten.svg?style=plastic&label=Stars) | [Ebiten](https://github.com/hajimehoshi/ebiten) | 好鬼简单的2D游戏库.
+![GitHub stars](https://img.shields.io/github/stars/EngoEngine/engo.svg?style=plastic&label=Stars) | [engo](https://github.com/EngoEngine/engo) |  一个开源的2D游戏引擎,用Go编写.它遵循实体组件系统Entity-Component-System范例.
+![GitHub stars](https://img.shields.io/github/stars/g3n/engine.svg?style=plastic&label=Stars) | [g3n](https://github.com/g3n/engine) | 3D游戏引擎.
+![GitHub stars](https://img.shields.io/github/stars/vova616/GarageEngine.svg?style=plastic&label=Stars) | [GarageEngine](https://github.com/vova616/GarageEngine) | 2D游戏引擎,在OpenGL上运行.
+![GitHub stars](https://img.shields.io/github/stars/runningwild/glop.svg?style=plastic&label=Stars) | [glop](https://github.com/runningwild/glop) |  (游戏库的权力的缩写)是一个相当简单的跨平台游戏库.
+![GitHub stars](https://img.shields.io/github/stars/beefsack/go-astar.svg?style=plastic&label=Stars) | [go-astar](https://github.com/beefsack/go-astar) | A\*路径搜索算法实现.
+![GitHub stars](https://img.shields.io/github/stars/GlenKelley/go-collada.svg?style=plastic&label=Stars) | [go-collada](https://github.com/GlenKelley/go-collada) | 使用Collada文件格式
+![GitHub stars](https://img.shields.io/github/stars/veandco/go-sdl2.svg?style=plastic&label=Stars) | [go-sdl2](https://github.com/veandco/go-sdl2) | 绑定[简单 直达媒体 层](https://www.libsdl.org/).
+![GitHub stars](https://img.shields.io/github/stars/ungerik/go3d.svg?style=plastic&label=Stars) | [go3d](https://github.com/ungerik/go3d) | 面向性能的2D/3D软件包.
+![GitHub stars](https://img.shields.io/github/stars/xtaci/gonet.svg?style=plastic&label=Stars) | [gonet](https://github.com/xtaci/gonet) |  游戏服务器骨架实现.
+![GitHub stars](https://img.shields.io/github/stars/xiaonanln/goworld.svg?style=plastic&label=Stars) | [goworld](https://github.com/xiaonanln/goworld) | 可扩展的游戏服务器引擎,具有空间实体框架和热交换
+![GitHub stars](https://img.shields.io/github/stars/name5566/leaf.svg?style=plastic&label=Stars) | [Leaf](https://github.com/name5566/leaf) | 轻量级游戏服务器框架.
+![GitHub stars](https://img.shields.io/github/stars/lonnng/nano.svg?style=plastic&label=Stars) | [nano](https://github.com/lonnng/nano) | 基于高性能Go的轻量级、高性能的游戏服务器框架
+![GitHub stars](https://img.shields.io/github/stars/oakmound/oak.svg?style=plastic&label=Stars) | [Oak](https://github.com/oakmound/oak) | 纯Go游戏引擎.
+![GitHub stars](https://img.shields.io/github/stars/topfreegames/pitaya.svg?style=plastic&label=Stars) | [Pitaya](https://github.com/topfreegames/pitaya) | 通过C SDK为iOS、Android、Unity等提供集群支持和客户机库的可伸缩游戏服务器框架.
+![GitHub stars](https://img.shields.io/github/stars/faiface/pixel.svg?style=plastic&label=Stars) | [Pixel](https://github.com/faiface/pixel) | 手工制作的2D游戏库.
+![GitHub stars](https://img.shields.io/github/stars/gen2brain/raylib-go.svg?style=plastic&label=Stars) | [raylib-go](https://github.com/gen2brain/raylib-go) | 绑定[raylib](http://www.raylib.com/)，一个简单而易于使用，学习视频游戏编程的库.
+![GitHub stars](https://img.shields.io/github/stars/JoelOtter/termloop.svg?style=plastic&label=Stars) | [termloop](https://github.com/JoelOtter/termloop) | 基于终端的游戏引擎,构建在Termbox之上.
 </details>
 
 ## 生成与泛型
@@ -815,19 +815,19 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [efaceconv](https://github.com/t0pep0/efaceconv) | 代码生成工具,用于从接口{}到不分配的不可变类型的高性能转换.
--   [gen](https://github.com/clipperhouse/gen) | "泛型"类功能的代码生成工具.
--   [go-enum](https://github.com/abice/go-enum)代码注释中枚举的代码生成.
--   [go-linq](https://github.com/ahmetalpbalkan/go-linq) | .NET的LINQ类查询方法.
--   [goderive](https://github.com/awalterschulze/goderive) | 从输入类型派生函数.
--   [interfaces](https://github.com/rjeczalik/interfaces) | 用于生成接口定义的命令行工具.
--   [jennifer](https://github.com/dave/jennifer) | 生成无模板的任意Go代码.
--   [pkgreflect](https://github.com/ungerik/pkgreflect)转到包范围反射的预处理器.
+![GitHub stars](https://img.shields.io/github/stars/t0pep0/efaceconv.svg?style=plastic&label=Stars) | [efaceconv](https://github.com/t0pep0/efaceconv) | 代码生成工具,用于从 interface{}到不分配的不可变类型 的高性能转换.
+![GitHub stars](https://img.shields.io/github/stars/clipperhouse/gen.svg?style=plastic&label=Stars) | [gen](https://github.com/clipperhouse/gen) | 类"泛型"功能的代码生成工具.
+![GitHub stars](https://img.shields.io/github/stars/abice/go-enum.svg?style=plastic&label=Stars) | [go-enum](https://github.com/abice/go-enum) | 代码注释中枚举的代码生成.
+![GitHub stars](https://img.shields.io/github/stars/ahmetalpbalkan/go-linq.svg?style=plastic&label=Stars) | [go-linq](https://github.com/ahmetalpbalkan/go-linq) | .NET的类LINQ查询方法.
+![GitHub stars](https://img.shields.io/github/stars/awalterschulze/goderive.svg?style=plastic&label=Stars) | [goderive](https://github.com/awalterschulze/goderive) | 从输入类型派生函数.
+![GitHub stars](https://img.shields.io/github/stars/rjeczalik/interfaces.svg?style=plastic&label=Stars) | [interfaces](https://github.com/rjeczalik/interfaces) | 用于生成接口定义的命令行工具.
+![GitHub stars](https://img.shields.io/github/stars/dave/jennifer.svg?style=plastic&label=Stars) | [jennifer](https://github.com/dave/jennifer) | 生成无模板的任意Go代码.
+![GitHub stars](https://img.shields.io/github/stars/ungerik/pkgreflect.svg?style=plastic&label=Stars) | [pkgreflect](https://github.com/ungerik/pkgreflect)| 包范围反射的预处理器.
 </details>
 
 ## 地理
 
-*地理工具和服务器*
+*地理工具和服务*
 
 <details>
 
@@ -835,12 +835,12 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [geocache](https://github.com/melihmucuk/geocache) | 内存缓存,适用于基于地理位置的应用程序.
--   [geoserver](https://github.com/hishamkaram/geoserver) | GeoServer是通过GeoServer REST API操纵GeoServer实例的Go包.
--   [osm](https://github.com/paulmach/osm) | 用于阅读、书写和使用OpenStuteTMAP数据和API的库.
--   [pbf](https://github.com/maguro/pbf) |  OpenStrutPMAP PBF戈兰编码器/解码器.
--   [S2 geometry](https://github.com/golang/geo) | 在Go中的S2几何库.
--   [Tile38](https://github.com/tidwall/tile38) |地理索引数据库,具有空间索引和实时地理信息.
+![GitHub stars](https://img.shields.io/github/stars/melihmucuk/geocache.svg?style=plastic&label=Stars) | [geocache](https://github.com/melihmucuk/geocache) | 内存缓存,适用于基于地理位置的应用程序.
+![GitHub stars](https://img.shields.io/github/stars/hishamkaram/geoserver.svg?style=plastic&label=Stars) | [geoserver](https://github.com/hishamkaram/geoserver) | 通过GeoServer REST API操纵GeoServer实例的Go包.
+![GitHub stars](https://img.shields.io/github/stars/paulmach/osm.svg?style=plastic&label=Stars) | [osm](https://github.com/paulmach/osm) | 用于阅读、书写和使用OpenStreetMap数据和API的库.
+![GitHub stars](https://img.shields.io/github/stars/maguro/pbf.svg?style=plastic&label=Stars) | [pbf](https://github.com/maguro/pbf) |  OpenStreetMap PBF戈兰编码器/解码器.
+![GitHub stars](https://img.shields.io/github/stars/golang/geo.svg?style=plastic&label=Stars) | [S2 geometry](https://github.com/golang/geo) | S2几何库.
+![GitHub stars](https://img.shields.io/github/stars/tidwall/tile38.svg?style=plastic&label=Stars) | [Tile38](https://github.com/tidwall/tile38) | 地理数据库,具有空间索引和实时地理信息.
 </details>
 
 ## Go编译器
