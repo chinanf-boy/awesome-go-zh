@@ -79,10 +79,10 @@
   - [x] [游戏开发](#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91)
   - [x] [生成与泛型](#%E7%94%9F%E6%88%90%E4%B8%8E%E6%B3%9B%E5%9E%8B)
   - [x] [地理](#%E5%9C%B0%E7%90%86)
-  - [Go编译器](#go%E7%BC%96%E8%AF%91%E5%99%A8)
-  - [go线程](#go%E7%BA%BF%E7%A8%8B)
-  - [GUI](#gui)
-  - [硬件](#%E7%A1%AC%E4%BB%B6)
+  - [x] [Go编译器](#go%E7%BC%96%E8%AF%91%E5%99%A8)
+  - [x] [go线程](#go%E7%BA%BF%E7%A8%8B)
+  - [x] [GUI](#gui)
+  - [x] [硬件](#%E7%A1%AC%E4%BB%B6)
   - [图像](#%E5%9B%BE%E5%83%8F)
   - [物联网](#%E7%89%A9%E8%81%94%E7%BD%91)
   - [日志](#%E6%97%A5%E5%BF%97)
@@ -853,16 +853,16 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [c4go](https://github.com/Konstantin8105/c4go) | 跨代码C代码去代码.
--   [f4go](https://github.com/Konstantin8105/f4go) |  TracpFILE FORTRAN 77代码去代码.
--   [gopherjs](https://github.com/gopherjs/gopherjs)从JavaScript到编译器.
--   [llgo](https://github.com/go-llvm/llgo)基于LLVM的Go编译器.
--   [tardisgo](https://github.com/tardisgo/tardisgo) |  Golang到Haxe到CPP/CSPAR/Java/JavaScript TrpPulter.
+![GitHub stars](https://img.shields.io/github/stars/Konstantin8105/c4go.svg?style=plastic&label=Stars) | [c4go](https://github.com/Konstantin8105/c4go) | 将C代码转换为Go代码.
+![GitHub stars](https://img.shields.io/github/stars/Konstantin8105/f4go.svg?style=plastic&label=Stars) | [f4go](https://github.com/Konstantin8105/f4go) |  将FORTRAN 77代码转换为Go代码.
+![GitHub stars](https://img.shields.io/github/stars/gopherjs/gopherjs.svg?style=plastic&label=Stars) | [gopherjs](https://github.com/gopherjs/gopherjs) | 编译Go到JavaScript.
+![GitHub stars](https://img.shields.io/github/stars/go-llvm/llgo.svg?style=plastic&label=Stars) | [llgo](https://github.com/go-llvm/llgo) | 基于LLVM的编译器.
+![GitHub stars](https://img.shields.io/github/stars/tardisgo/tardisgo.svg?style=plastic&label=Stars) | [tardisgo](https://github.com/tardisgo/tardisgo) |  Golang 到 Haxe 到CPP/CSPAR/Java/JavaScript 的转换器
 </details>
 
 ## go线程
 
-*与Goroutines（go类型线程）一起工作和管理工具.*
+*与Goroutines（go小线程）一起工作和管理工具.*
 
 <details>
 
@@ -870,30 +870,30 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [async](https://github.com/studiosol/async) | 一种安全的方法来异步执行函数,在惊慌的情况下恢复它们.
--   [cyclicbarrier](https://github.com/marusama/cyclicbarrier) | Golang的循环障碍.
--   [go-floc](https://github.com/workanator/go-floc) | 精心安排好课程.
--   [go-flow](https://github.com/kamildrazkiewicz/go-flow) | 控制GoRDOTIN执行顺序.
--   [go-trylock](https://github.com/subchen/go-trylock) | 对Golang的读写锁的TyLink支持.
--   [GoSlaves](https://github.com/themester/GoSlaves) | 简单和异步GoODUTE池库.
--   [goworker](https://github.com/benmanns/goworker)GoWORKER是一个基于Go的后台工作者.
--   [grpool](https://github.com/ivpusic/grpool) |  Lightweight Goroutine池.
--   [parallel-fn](https://github.com/rafaeljesus/parallel-fn) | 并行运行函数.
--   [pool](https://github.com/go-playground/pool) | 有限的消费者GoODUTIN或无限GoUDOTIN池更容易处理和取消GoOTUN.
--   [semaphore](https://github.com/kamilsk/semaphore) | 基于通道和上下文的锁/解锁操作超时的信号量模式实现.
--   [semaphore](https://github.com/marusama/semaphore) | 基于CAS(基于通道的信号量实现)的快速可重信号量实现.
--   [stl](https://github.com/ssgreg/stl) | 基于软件事务内存(STM)并发控制机制的软件事务锁.
--   [threadpool](https://github.com/shettyh/threadpool) |  Golang线程池实现.
--   [tunny](https://github.com/Jeffail/tunny) |  Goroutine游泳池.
--   [worker-pool](https://github.com/vardius/worker-pool)GoWORKER是一个简单的异步工作池.
--   [workerpool](https://github.com/gammazero/workerpool) |  Goroutine池,它限制了任务执行的并发性,而不是排队的任务数.
+![GitHub stars](https://img.shields.io/github/stars/studiosol/async.svg?style=plastic&label=Stars) | [async](https://github.com/studiosol/async) | 一种安全的异步执行函数的方式,在panic的情况下恢复它们.
+![GitHub stars](https://img.shields.io/github/stars/marusama/cyclicbarrier.svg?style=plastic&label=Stars) | [cyclicbarrier](https://github.com/marusama/cyclicbarrier) | Golang的CyclicBarrier, 循环等待.
+![GitHub stars](https://img.shields.io/github/stars/workanator/go-floc.svg?style=plastic&label=Stars) | [go-floc](https://github.com/workanator/go-floc) | 轻松编排goroutines
+![GitHub stars](https://img.shields.io/github/stars/kamildrazkiewicz/go-flow.svg?style=plastic&label=Stars) | [go-flow](https://github.com/kamildrazkiewicz/go-flow) | 控制goroutines执行顺序.
+![GitHub stars](https://img.shields.io/github/stars/subchen/go-trylock.svg?style=plastic&label=Stars) | [go-trylock](https://github.com/subchen/go-trylock) | 对Golang的读写锁的TryLock支持.
+![GitHub stars](https://img.shields.io/github/stars/themester/GoSlaves.svg?style=plastic&label=Stars) | [GoSlaves](https://github.com/themester/GoSlaves) | 简单和异步Goroutine池库.
+![GitHub stars](https://img.shields.io/github/stars/benmanns/goworker.svg?style=plastic&label=Stars) | [goworker](https://github.com/benmanns/goworker) | 一个后台工作者.
+![GitHub stars](https://img.shields.io/github/stars/ivpusic/grpool.svg?style=plastic&label=Stars) | [grpool](https://github.com/ivpusic/grpool) |  轻量级 Goroutine池.
+![GitHub stars](https://img.shields.io/github/stars/rafaeljesus/parallel-fn.svg?style=plastic&label=Stars) | [parallel-fn](https://github.com/rafaeljesus/parallel-fn) | 并行运行函数.
+![GitHub stars](https://img.shields.io/github/stars/go-playground/pool.svg?style=plastic&label=Stars) | [pool](https://github.com/go-playground/pool) | 有限的消费者或无限的goroutine池，更容易处理和取消它们.
+![GitHub stars](https://img.shields.io/github/stars/kamilsk/semaphore.svg?style=plastic&label=Stars) | [semaphore](https://github.com/kamilsk/semaphore) | 基于通道和上下文的，超时锁/解锁操作的信号量模式实现.
+![GitHub stars](https://img.shields.io/github/stars/marusama/semaphore.svg?style=plastic&label=Stars) | [semaphore](https://github.com/marusama/semaphore) | 基于CAS(基于通道的信号量实现)，快速可重设信号量的实现.
+![GitHub stars](https://img.shields.io/github/stars/ssgreg/stl.svg?style=plastic&label=Stars) | [stl](https://github.com/ssgreg/stl) | 基于软件事务内存(STM)并发控制机制的软件事务锁.
+![GitHub stars](https://img.shields.io/github/stars/shettyh/threadpool.svg?style=plastic&label=Stars) | [threadpool](https://github.com/shettyh/threadpool) |  Goroutine线程池实现.
+![GitHub stars](https://img.shields.io/github/stars/Jeffail/tunny.svg?style=plastic&label=Stars) | [tunny](https://github.com/Jeffail/tunny) |  Goroutine游泳池.
+![GitHub stars](https://img.shields.io/github/stars/vardius/worker-pool.svg?style=plastic&label=Stars) | [worker-pool](https://github.com/vardius/worker-pool) | 一个简单的异步工作池.
+![GitHub stars](https://img.shields.io/github/stars/gammazero/workerpool.svg?style=plastic&label=Stars) | [workerpool](https://github.com/gammazero/workerpool) |  Goroutine池,它限制了任务执行的并发,而不是排队数.
 </details>
 
 ## GUI
 
 *用于构建GUI应用程序的库.*
 
-*工具程序*
+### 工具程序
 
 <details>
 
@@ -901,20 +901,20 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [app](https://github.com/murlokswarm/app) | 用Go、HTML和CSS创建应用程序包.支持:MACOS,正在进行中的窗口.
--   [fyne](https://github.com/fyne-io/fyne)跨平台原生GUI设计为Go,使用EFL呈现.支持:Linux,Mac OS,Windows.
--   [go-astilectron](https://github.com/asticode/go-astilectron) | 用Go和HTML/JS/CSS(电子驱动)构建跨平台的GUI应用程序.
--   [go-gtk](http://mattn.github.io/go-gtk/)Go for GTK绑定.
--   [go-sciter](https://github.com/sciter-sdk/go-sciter)去绑定for sciter:HTML / CSS embeddable /脚本引擎for Modern桌面UI开发.跨平台.
--   [gotk3](https://github.com/gotk3/gotk3)Go for gtk3绑定.
--   [gowd](https://github.com/dtylman/gowd) | 快速和简单的桌面界面开发以及走,HTML,CSS和nw.js.跨平台.
--   [qt](https://github.com/therecipe/qt)QT结合for走(support for Windows或MacOS / Linux /机器人/ IOS / sailfish OS /覆盆子π).
--   [ui](https://github.com/andlabs/ui)平台的GUI库为原生去.跨平台.
--   [walk](https://github.com/lxn/walk)Windows应用试剂盒去图书馆.
--   [webview](https://github.com/zserge/webview)跨平台Web视图窗口以及简单的双向JavaScript绑定(Windows / Linux和MacOS /).
+![GitHub stars](https://img.shields.io/github/stars/murlokswarm/app.svg?style=plastic&label=Stars) | [app](https://github.com/murlokswarm/app) | 用Go、HTML和CSS创建应用程序包.支持:MacOS, Windows进行中.
+![GitHub stars](https://img.shields.io/github/stars/fyne-io/fyne.svg?style=plastic&label=Stars) | [fyne](https://github.com/fyne-io/fyne) | 跨平台原生GUI设计,使用EFL呈现.支持:Linux,MacOS,Windows.
+![GitHub stars](https://img.shields.io/github/stars/asticode/go-astilectron.svg?style=plastic&label=Stars) | [go-astilectron](https://github.com/asticode/go-astilectron) | 用Go和HTML/JS/CSS(Electron驱动)d的构建跨平台的GUI应用程序.
+![GitHub stars](https://img.shields.io/github/stars/mattn/go-gtk.svg?style=plastic&label=Stars)| [go-gtk](http://mattn.github.io/go-gtk/) | GTK绑定.
+![GitHub stars](https://img.shields.io/github/stars/sciter-sdk/go-sciter.svg?style=plastic&label=Stars) | [go-sciter](https://github.com/sciter-sdk/go-sciter) | 绑定Sciter: 可嵌入HTML/CSS/脚本引擎，现代桌面UI开发.跨平台.
+![GitHub stars](https://img.shields.io/github/stars/gotk3/gotk3.svg?style=plastic&label=Stars) | [gotk3](https://github.com/gotk3/gotk3) | GTK3绑定.
+![GitHub stars](https://img.shields.io/github/stars/dtylman/gowd.svg?style=plastic&label=Stars) | [gowd](https://github.com/dtylman/gowd) | 快速和简单的桌面界面开发，Go,HTML,CSS和NW.js. 跨平台.
+![GitHub stars](https://img.shields.io/github/stars/therecipe/qt.svg?style=plastic&label=Stars) | [qt](https://github.com/therecipe/qt) | QT绑定(支持Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
+![GitHub stars](https://img.shields.io/github/stars/andlabs/ui.svg?style=plastic&label=Stars) | [ui](https://github.com/andlabs/ui) | 原生平台的GUI库. 跨平台.
+![GitHub stars](https://img.shields.io/github/stars/lxn/walk.svg?style=plastic&label=Stars) | [walk](https://github.com/lxn/walk) | Windows应用库套件.
+![GitHub stars](https://img.shields.io/github/stars/zserge/webview.svg?style=plastic&label=Stars) | [webview](https://github.com/zserge/webview) | 跨平台webview窗口,以及简单的双向JavaScript绑定(Windows / Linux / MacOS).
 </details>
 
-*交流*
+### 交流
 
 <details>
 
@@ -922,10 +922,10 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
--   [gosx-notifier](https://github.com/deckarep/gosx-notifier) |  OSX桌面通知library for走.
--   [robotgo](https://github.com/go-vgo/robotgo)跨平台的GUI去原生的自动化.控制鼠标,键盘和其他.
--   [systray](https://github.com/getlantern/systray)交叉平台去图书馆建立年图标和菜单to in the通知区域.
--   [trayhost](https://github.com/shurcooL/trayhost)跨平台去图书馆to地方年主机操作系统的图标在taskbar.
+![GitHub stars](https://img.shields.io/github/stars/deckarep/gosx-notifier.svg?style=plastic&label=Stars) | [gosx-notifier](https://github.com/deckarep/gosx-notifier) |  OSX桌面通知库.
+![GitHub stars](https://img.shields.io/github/stars/go-vgo/robotgo.svg?style=plastic&label=Stars) | [robotgo](https://github.com/go-vgo/robotgo) | 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
+![GitHub stars](https://img.shields.io/github/stars/getlantern/systray.svg?style=plastic&label=Stars) | [systray](https://github.com/getlantern/systray) | 跨平台，在通知区域建立图标和菜单.
+![GitHub stars](https://img.shields.io/github/stars/shurcooL/trayhost.svg?style=plastic&label=Stars) | [trayhost](https://github.com/shurcooL/trayhost) | 跨平台，放置图标在主机操作系统的任务栏。
 </details>
 
 ## 硬件
@@ -938,7 +938,7 @@ stars | name | desc
 
 stars | name | desc
 ---|---|---
-见[go-hardware](https://github.com/rakyll/go-hardware) 硬件相关的Go库，工具和教程的综合列表
+![GitHub stars](https://img.shields.io/github/stars/rakyll/go-hardware.svg?style=plastic&label=Stars)| [go-hardware](https://github.com/rakyll/go-hardware) | 硬件相关的Go库，工具和教程的综合列表
 </details>
 
 ## 图像
