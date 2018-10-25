@@ -729,8 +729,8 @@ stars | name | desc
 ![GitHub stars](https://img.shields.io/github/stars/artonge/go-gtfs.svg?style=plastic&label=Stars) | [go-gtfs](https://github.com/artonge/go-gtfs) | 在Go中加载gtfs文件.
 ![GitHub stars](https://img.shields.io/github/stars/rjeczalik/notify.svg?style=plastic&label=Stars) | [notify](https://github.com/rjeczalik/notify) | 文件系统事件通知库,具有简单的API,类似于操作系统/信号.
 ![GitHub stars](https://img.shields.io/github/stars/hhrutter/pdfcpu.svg?style=plastic&label=Stars) | [pdfcpu](https://github.com/hhrutter/pdfcpu) |  PDF处理器.
-![GitHub stars](https://img.shields.io/github/stars/dixonwille/skywalker.svg?style=plastic&label=Stars) | [skywalker](https://github.com/dixonwille/skywalker) | 一个允许同时轻松地通过文件系统的包.
-![GitHub stars](https://img.shields.io/github/stars/posener/tarfs.svg?style=plastic&label=Stars) | [tarfs](https://github.com/posener/tarfs) | 实现[`FileSystem` 接口](https://godoc.org/github.com/kr/fs#FileSystem)焦油档案.
+![GitHub stars](https://img.shields.io/github/stars/dixonwille/skywalker.svg?style=plastic&label=Stars) | [skywalker](https://github.com/dixonwille/skywalker) | 一个，允许同时只一个人轻松地处理文件系统的包.
+![GitHub stars](https://img.shields.io/github/stars/posener/tarfs.svg?style=plastic&label=Stars) | [tarfs](https://github.com/posener/tarfs) | tar文件的[`FileSystem` 接口](https://godoc.org/github.com/kr/fs#FileSystem)实现 .
 </details>
 
 ## 金融
@@ -1378,6 +1378,7 @@ stars | name | desc
 ---|---|---
 -   [dep](https://github.com/golang/dep) | 包版本依赖工具.
 -   [vgo](https://go.googlesource.com/vgo/) | 版本的Go.
+</details>
 
 *用于包装和依赖管理的非官方图书馆.*
 
